@@ -84,7 +84,7 @@ export default function Index() {
             ].map((service, index) => (
               <button 
                 key={index}
-                className="bg-brand text-black p-4 font-bold text-sm hover:bg-brand-dark transition-colors text-center"
+                className="bg-brand text-black p-4 font-bold text-sm hover:bg-brand-dark transition-colors text-center font-body"
               >
                 {service}
               </button>
