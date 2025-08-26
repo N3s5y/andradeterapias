@@ -148,7 +148,7 @@ export default function Index() {
               </button>
             </div>
             <div className="bg-brand/10 p-8 rounded-lg">
-              <h3 className="text-xl font-bold mb-4">O tratamento inclui:</h3>
+              <h3 className="text-xl font-bold mb-4 font-subtitle">O tratamento inclui:</h3>
               <ul className="space-y-2 text-gray-600">
                 <li>• Avaliação e diagnóstico abrangentes</li>
                 <li>• Planos de tratamento individuais</li>
@@ -201,7 +201,7 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Para agendar sua consulta, preencha nosso formulário de agendamento online*</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Para agendar sua consulta, preencha nosso formulário de agendamento online*</h2>
               <p className="text-gray-600 mb-6 font-body">
                 Por favor, preencha o formulário e entraremos em contato para agendar sua consulta. 
                 Alternativamente, você pode nos ligar diretamente.
@@ -226,7 +226,7 @@ export default function Index() {
               </div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold mb-6">Agendamento Online</h3>
+              <h3 className="text-xl font-bold mb-6 font-subtitle">Agendamento Online</h3>
               <form className="space-y-4">
                 <div>
                   <label className="block text-sm font-medium mb-1">Nome</label>
@@ -260,7 +260,7 @@ export default function Index() {
       {/* Client Testimonials */}
       <section className="py-16 bg-gray-800 text-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Veja o que nossos clientes dizem:</h2>
+          <h2 className="text-3xl font-bold text-center mb-12 font-title">Veja o que nossos clientes dizem:</h2>
           <div className="bg-white text-black p-8 rounded-lg max-w-2xl mx-auto">
             <div className="flex items-center space-x-2 mb-4">
               {[1,2,3,4,5].map((star) => (
@@ -308,7 +308,7 @@ export default function Index() {
               </p>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Horário de Funcionamento</h4>
+              <h4 className="font-bold mb-4 font-subtitle">Horário de Funcionamento</h4>
               <div className="space-y-2 text-sm text-gray-400">
                 <div className="flex justify-between">
                   <span>Segunda - Sexta</span>
