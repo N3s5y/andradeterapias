@@ -1,17 +1,6 @@
-import { Link, useLocation } from "react-router-dom";
-import { cn } from "@/lib/utils";
+import { Link } from "react-router-dom";
 
 const Header = () => {
-  const location = useLocation();
-
-  const navigationItems = [
-    { label: "HOME", path: "/" },
-    { label: "SERVICES", path: "/services" },
-    { label: "OUR TEAM", path: "/our-team" },
-    { label: "APPOINTMENTS", path: "/appointments" },
-    { label: "GIFT VOUCHERS", path: "/gift-vouchers" },
-    { label: "CONTACT", path: "/contact" },
-  ];
 
   return (
     <header className="absolute top-0 left-0 w-full z-50 bg-transparent">
