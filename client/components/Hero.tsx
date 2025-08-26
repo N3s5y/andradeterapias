@@ -4,10 +4,10 @@ const Hero = () => {
   return (
     <section className="relative h-screen w-full overflow-hidden">
       {/* Background Image */}
-      <div 
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat"
+      <div
+        className="absolute inset-0 bg-cover bg-center bg-no-repeat grayscale"
         style={{
-          backgroundImage: "url('/hero-background.jpg')",
+          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F0fa7fb6728714bd6b685658883700fdf?format=webp&width=800')",
         }}
       >
         {/* Dark Overlay */}
