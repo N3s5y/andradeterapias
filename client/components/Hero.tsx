@@ -18,7 +18,7 @@ const Hero = () => {
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
         {/* Subtitle */}
         <p className="text-brand text-lg md:text-xl lg:text-2xl italic font-light mb-8 max-w-4xl">
-          Especialistas em quiropraxia e massagem terapêutica
+          Especialista em quiropraxia e massagem terapêutica
         </p>
 
         {/* Main Heading */}
