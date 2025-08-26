@@ -113,5 +113,19 @@
 
   body {
     @apply bg-background text-foreground;
+    font-family: 'Futura PT', 'Montserrat', sans-serif;
+  }
+
+  /* Font families */
+  .font-title {
+    font-family: 'Constantia', 'Times New Roman', serif;
+  }
+
+  .font-subtitle {
+    font-family: 'Century Schoolbook', 'Times New Roman', serif;
+  }
+
+  .font-body {
+    font-family: 'Futura PT', 'Montserrat', sans-serif;
   }
 }
