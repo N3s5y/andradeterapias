@@ -71,6 +71,12 @@ export default {
           ring: "hsl(var(--sidebar-ring))",
         },
       },
+      fontFamily: {
+        title: ['Constantia', 'Times New Roman', 'serif'],
+        subtitle: ['Century Schoolbook', 'Times New Roman', 'serif'],
+        body: ['Futura PT', 'Montserrat', 'sans-serif'],
+        sans: ['Futura PT', 'Montserrat', 'sans-serif'],
+      },
       borderRadius: {
         lg: "var(--radius)",
         md: "calc(var(--radius) - 2px)",
