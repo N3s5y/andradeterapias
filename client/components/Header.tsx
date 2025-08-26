@@ -18,14 +18,12 @@ const Header = () => {
       <div className="container mx-auto px-6 py-6">
         <div className="flex items-center justify-between">
           {/* Logo */}
-          <Link to="/" className="flex items-center space-x-3">
-            <div className="w-16 h-16 bg-brand rounded-full flex items-center justify-center">
-              <span className="text-2xl font-bold text-black">mp</span>
-            </div>
-            <div className="text-white">
-              <div className="text-xl font-bold tracking-wider">MARPLE</div>
-              <div className="text-xl font-bold tracking-wider">PHYSIO</div>
-            </div>
+          <Link to="/" className="flex items-center">
+            <img
+              src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2Fca3636890bab4661aedbbe77d527eaa9?format=webp&width=800"
+              alt="Andrade Terapias - Quiropraxia & Massagem"
+              className="h-16 w-auto"
+            />
           </Link>
 
           {/* Navigation */}
