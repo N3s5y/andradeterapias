@@ -15,11 +15,11 @@ const PlaceholderPage = ({ title, description }: PlaceholderPageProps) => {
             {title}
           </h1>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            {description || "This page is coming soon. Please continue prompting to have me fill in the content for this page."}
+            {description || "Esta página estará disponível em breve. Continue solicitando para que eu preencha o conteúdo desta página."}
           </p>
           <div className="bg-brand/10 border border-brand/20 rounded-lg p-8 max-w-md mx-auto">
             <p className="text-brand font-medium">
-              Continue prompting to add content to this page
+              Continue solicitando para adicionar conteúdo a esta página
             </p>
           </div>
         </div>
