@@ -13,54 +13,54 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Marple Physio is a leading provider of specialist physiotherapy in Stockport.</h2>
+              <h2 className="text-3xl font-bold mb-6">Andrade Terapias é uma clínica especializada em quiropraxia e massagem terapêutica.</h2>
               <p className="text-gray-600 mb-4">
-                As one of the leading independent providers of specialist private physiotherapy in Stockport, 
-                we offer a comprehensive range of services to help you return to your optimum health and fitness.
+                Como uma das principais clínicas especializadas em quiropraxia e massagem terapêutica, 
+                oferecemos uma gama completa de serviços para ajudá-lo a retornar à sua saúde e bem-estar ideais.
               </p>
               <p className="text-gray-600 mb-4">
-                Our team of highly qualified and experienced physiotherapists will assess your condition and 
-                provide you with an individual treatment plan to help you achieve your goals.
+                Nossa equipe de profissionais altamente qualificados e experientes avaliará sua condição e 
+                fornecerá um plano de tratamento individual para ajudá-lo a alcançar seus objetivos.
               </p>
               <p className="text-gray-600">
-                We treat a wide range of conditions and injuries, offering both assessment and treatment 
-                for musculoskeletal problems, sports injuries, and chronic pain conditions.
+                Tratamos uma ampla gama de condições e lesões, oferecendo tanto avaliação quanto tratamento 
+                para problemas musculoesqueléticos, lesões esportivas e condições de dor crônica.
               </p>
             </div>
             <div className="relative">
               <div className="bg-brand h-1 w-12 mb-6"></div>
               <p className="text-gray-600 italic">
-                "We are committed to providing the highest quality physiotherapy care in a friendly and 
-                professional environment."
+                "Estamos comprometidos em fornecer cuidados de quiropraxia e massagem da mais alta qualidade 
+                em um ambiente amigável e profissional."
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Pilates Centre Section */}
+      {/* Massage Centre Section */}
       <section className="py-16">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6">Our new Marple Physio Pilates Centre</h2>
+              <h2 className="text-3xl font-bold mb-6">Nossa sala de massagem terapêutica especializada</h2>
               <p className="text-gray-600 mb-4">
-                We are delighted to announce the opening of our new state-of-the-art Pilates studio. 
-                Our fully equipped studio offers both one-to-one and small group Pilates sessions.
+                Temos o prazer de anunciar nossa sala de massagem terapêutica totalmente equipada. 
+                Nosso espaço oferece tanto sessões individuais quanto tratamentos personalizados.
               </p>
               <p className="text-gray-600 mb-6">
-                Clinical Pilates is an evidence-based approach to exercise that focuses on optimal 
-                movement patterns, breathing techniques, and progressive strengthening.
+                A massagem terapêutica é uma abordagem baseada em evidências que se concentra no 
+                alívio da dor, relaxamento muscular e melhoria da circulação sanguínea.
               </p>
               <button className="bg-brand text-black px-6 py-3 font-bold hover:bg-brand-dark transition-colors">
-                FIND OUT MORE
+                SAIBA MAIS
               </button>
             </div>
             <div>
               <img 
                 src="/pilates-studio.jpg" 
-                alt="Pilates studio with exercise mats" 
+                alt="Sala de massagem terapêutica" 
                 className="w-full h-80 object-cover rounded-lg"
               />
             </div>
@@ -73,14 +73,14 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
             {[
-              "Physiotherapy Assessment",
-              "Sports Injury Treatment", 
-              "Clinical Pilates",
-              "Spinal Problems",
-              "Joint Mobilisation",
-              "Soft Tissue Treatment",
-              "Exercise Rehabilitation",
-              "Postural Assessment"
+              "Avaliação Quiroprática",
+              "Tratamento de Lesões", 
+              "Massagem Terapêutica",
+              "Problemas da Coluna",
+              "Mobilização Articular",
+              "Tratamento de Tecidos Moles",
+              "Reabilitação com Exercícios",
+              "Avaliação Postural"
             ].map((service, index) => (
               <button 
                 key={index}
@@ -100,62 +100,62 @@ export default function Index() {
             <div>
               <img 
                 src="/team-member.jpg" 
-                alt="Physiotherapist team member" 
+                alt="Membro da equipe de quiropraxia" 
                 className="w-full h-96 object-cover rounded-lg"
               />
             </div>
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6">Offering exceptional levels of care and personal attention</h2>
+              <h2 className="text-3xl font-bold mb-6">Oferecendo níveis excepcionais de cuidado e atenção pessoal</h2>
               <p className="text-gray-600 mb-4">
-                Our chartered physiotherapists have extensive experience in treating a wide range of 
-                musculoskeletal conditions and sports injuries.
+                Nossos quiropráticos e massoterapeutas têm ampla experiência no tratamento de uma grande variedade 
+                de condições musculoesqueléticas e lesões esportivas.
               </p>
               <p className="text-gray-600 mb-4">
-                We provide a professional, friendly service with appointments available at times to 
-                suit you, including early mornings, evenings and weekends.
+                Fornecemos um serviço profissional e amigável com consultas disponíveis em horários que se adequem 
+                a você, incluindo manhã cedo, noites e fins de semana.
               </p>
               <p className="text-gray-600">
-                Each treatment session is tailored to your individual needs, ensuring you receive 
-                the most appropriate care for your condition.
+                Cada sessão de tratamento é adaptada às suas necessidades individuais, garantindo que você receba 
+                o cuidado mais apropriado para sua condição.
               </p>
             </div>
           </div>
         </div>
       </section>
 
-      {/* Non-NHS Treatment Section */}
+      {/* Private Treatment Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6">Non-NHS physiotherapy treatment</h2>
+              <h2 className="text-3xl font-bold mb-6">Tratamento particular de quiropraxia e massagem</h2>
               <p className="text-gray-600 mb-4">
-                We offer comprehensive private physiotherapy services as an alternative to NHS treatment. 
-                Our private service means shorter waiting times and more treatment options.
+                Oferecemos serviços privados abrangentes de quiropraxia e massagem como uma alternativa aos tratamentos convencionais. 
+                Nosso serviço privado significa tempos de espera mais curtos e mais opções de tratamento.
               </p>
               <p className="text-gray-600 mb-4">
-                We accept most private medical insurance policies and can also provide treatment 
-                on a self-funding basis with competitive rates.
+                Aceitamos a maioria das apólices de seguro médico privado e também podemos fornecer tratamento 
+                com autofinanciamento a preços competitivos.
               </p>
               <p className="text-gray-600 mb-6">
-                All treatments are provided by qualified chartered physiotherapists with extensive 
-                clinical experience.
+                Todos os tratamentos são fornecidos por quiropráticos e massoterapeutas qualificados com ampla 
+                experiência clínica.
               </p>
               <button className="bg-brand text-black px-6 py-3 font-bold hover:bg-brand-dark transition-colors">
-                VIEW OUR SERVICES
+                VEJA NOSSOS SERVIÇOS
               </button>
             </div>
             <div className="bg-brand/10 p-8 rounded-lg">
-              <h3 className="text-xl font-bold mb-4">Treatment includes:</h3>
+              <h3 className="text-xl font-bold mb-4">O tratamento inclui:</h3>
               <ul className="space-y-2 text-gray-600">
-                <li>• Comprehensive assessment and diagnosis</li>
-                <li>• Individual treatment plans</li>
-                <li>• Manual therapy techniques</li>
-                <li>• Exercise prescription</li>
-                <li>• Advice and education</li>
-                <li>• Ongoing support and monitoring</li>
+                <li>• Avaliação e diagnóstico abrangentes</li>
+                <li>• Planos de tratamento individuais</li>
+                <li>• Técnicas de terapia manual</li>
+                <li>• Prescrição de exercícios</li>
+                <li>• Orientação e educação</li>
+                <li>• Suporte e monitoramento contínuos</li>
               </ul>
             </div>
           </div>
@@ -169,27 +169,27 @@ export default function Index() {
             <div>
               <img 
                 src="/clinic-room.jpg" 
-                alt="Modern clinic treatment room" 
+                alt="Sala de tratamento moderna da clínica" 
                 className="w-full h-80 object-cover rounded-lg"
               />
             </div>
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6">When will advice and help be given?</h2>
+              <h2 className="text-3xl font-bold mb-6">Quando orientação e ajuda serão fornecidas?</h2>
               <p className="text-gray-600 mb-4">
-                Our clinic provides a comfortable and professional environment for your treatment. 
-                We have modern facilities equipped with the latest physiotherapy equipment.
+                Nossa clínica oferece um ambiente confortável e profissional para seu tratamento. 
+                Temos instalações modernas equipadas com os mais recentes equipamentos de quiropraxia e massagem.
               </p>
               <p className="text-gray-600 mb-4">
-                We offer flexible appointment times to fit around your schedule, including early 
-                morning and evening appointments.
+                Oferecemos horários flexíveis de consulta para se adequar à sua agenda, incluindo consultas 
+                de manhã cedo e à noite.
               </p>
               <p className="text-gray-600 mb-6">
-                Free parking is available directly outside our clinic, making your visit as 
-                convenient as possible.
+                Estacionamento gratuito está disponível diretamente em frente à nossa clínica, tornando sua 
+                visita o mais conveniente possível.
               </p>
               <button className="bg-brand text-black px-6 py-3 font-bold hover:bg-brand-dark transition-colors">
-                BOOK APPOINTMENT
+                AGENDAR CONSULTA
               </button>
             </div>
           </div>
@@ -201,19 +201,19 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6">To book your consultation please complete our online booking form*</h2>
+              <h2 className="text-3xl font-bold mb-6">Para agendar sua consulta, preencha nosso formulário de agendamento online*</h2>
               <p className="text-gray-600 mb-6">
-                Please fill in the form and we will contact you to arrange your appointment. 
-                Alternatively, you can call us directly.
+                Por favor, preencha o formulário e entraremos em contato para agendar sua consulta. 
+                Alternativamente, você pode nos ligar diretamente.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-brand" />
-                  <span className="font-medium">0161 427 7777</span>
+                  <span className="font-medium">(11) 99999-9999</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-brand" />
-                  <span>info@marplephysio.com</span>
+                  <span>contato@andradeterapias.com.br</span>
                 </div>
               </div>
               <div className="mt-8">
@@ -222,34 +222,34 @@ export default function Index() {
                     <Star key={star} className="w-5 h-5 fill-brand text-brand" />
                   ))}
                 </div>
-                <p className="text-sm text-gray-600">Google Reviews</p>
+                <p className="text-sm text-gray-600">Avaliações no Google</p>
               </div>
             </div>
             <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold mb-6">Online Booking</h3>
+              <h3 className="text-xl font-bold mb-6">Agendamento Online</h3>
               <form className="space-y-4">
                 <div>
-                  <label className="block text-sm font-medium mb-1">Name</label>
+                  <label className="block text-sm font-medium mb-1">Nome</label>
                   <input type="text" className="w-full border border-gray-300 px-3 py-2 rounded" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Email Address</label>
+                  <label className="block text-sm font-medium mb-1">E-mail</label>
                   <input type="email" className="w-full border border-gray-300 px-3 py-2 rounded" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Phone Number</label>
+                  <label className="block text-sm font-medium mb-1">Telefone</label>
                   <input type="tel" className="w-full border border-gray-300 px-3 py-2 rounded" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Preferred Date</label>
+                  <label className="block text-sm font-medium mb-1">Data Preferida</label>
                   <input type="date" className="w-full border border-gray-300 px-3 py-2 rounded" />
                 </div>
                 <div>
-                  <label className="block text-sm font-medium mb-1">Message</label>
+                  <label className="block text-sm font-medium mb-1">Mensagem</label>
                   <textarea rows={4} className="w-full border border-gray-300 px-3 py-2 rounded"></textarea>
                 </div>
                 <button className="w-full bg-brand text-black py-3 font-bold hover:bg-brand-dark transition-colors">
-                  SEND MESSAGE
+                  ENVIAR MENSAGEM
                 </button>
               </form>
             </div>
@@ -260,7 +260,7 @@ export default function Index() {
       {/* Client Testimonials */}
       <section className="py-16 bg-gray-800 text-white">
         <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12">Here's what our clients say:</h2>
+          <h2 className="text-3xl font-bold text-center mb-12">Veja o que nossos clientes dizem:</h2>
           <div className="bg-white text-black p-8 rounded-lg max-w-2xl mx-auto">
             <div className="flex items-center space-x-2 mb-4">
               {[1,2,3,4,5].map((star) => (
@@ -268,10 +268,10 @@ export default function Index() {
               ))}
             </div>
             <p className="text-lg mb-4">
-              "Excellent service and professional treatment. The physiotherapist was very knowledgeable 
-              and helped me recover from my back injury much faster than expected."
+              "Excelente atendimento e tratamento profissional. O quiroprático foi muito conhecedor 
+              e me ajudou a me recuperar da lesão nas costas muito mais rápido do que esperava."
             </p>
-            <p className="font-medium">- Sarah M.</p>
+            <p className="font-medium">- Maria S.</p>
           </div>
         </div>
       </section>
@@ -282,8 +282,8 @@ export default function Index() {
           <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center relative">
             <div className="text-center">
               <MapPin className="w-12 h-12 text-brand mx-auto mb-2" />
-              <p className="text-lg font-medium">Marple Physio</p>
-              <p className="text-gray-600">Stockport, Manchester</p>
+              <p className="text-lg font-medium">Andrade Terapias</p>
+              <p className="text-gray-600">São Paulo, SP</p>
             </div>
           </div>
         </div>
@@ -296,64 +296,64 @@ export default function Index() {
             <div>
               <div className="flex items-center space-x-3 mb-6">
                 <div className="w-12 h-12 bg-brand rounded-full flex items-center justify-center">
-                  <span className="text-lg font-bold text-black">mp</span>
+                  <span className="text-lg font-bold text-black">AT</span>
                 </div>
                 <div>
-                  <div className="font-bold">MARPLE</div>
-                  <div className="font-bold">PHYSIO</div>
+                  <div className="font-bold">ANDRADE</div>
+                  <div className="font-bold">TERAPIAS</div>
                 </div>
               </div>
               <p className="text-gray-400 text-sm">
-                Leading providers of specialist physiotherapy in Stockport.
+                Especialistas em quiropraxia e massagem terapêutica.
               </p>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Opening Hours</h4>
+              <h4 className="font-bold mb-4">Horário de Funcionamento</h4>
               <div className="space-y-2 text-sm text-gray-400">
                 <div className="flex justify-between">
-                  <span>Monday - Friday</span>
+                  <span>Segunda - Sexta</span>
                   <span>8:00 - 18:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Saturday</span>
+                  <span>Sábado</span>
                   <span>9:00 - 15:00</span>
                 </div>
                 <div className="flex justify-between">
-                  <span>Sunday</span>
-                  <span>Closed</span>
+                  <span>Domingo</span>
+                  <span>Fechado</span>
                 </div>
               </div>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Quick Links</h4>
+              <h4 className="font-bold mb-4">Links Rápidos</h4>
               <div className="space-y-2 text-sm text-gray-400">
-                <div>About Us</div>
-                <div>Services</div>
-                <div>Our Team</div>
-                <div>Appointments</div>
-                <div>Contact</div>
+                <div>Sobre Nós</div>
+                <div>Serviços</div>
+                <div>Nossa Equipe</div>
+                <div>Agendamentos</div>
+                <div>Contato</div>
               </div>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Contact Info</h4>
+              <h4 className="font-bold mb-4">Informações de Contato</h4>
               <div className="space-y-3 text-sm text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
-                  <span>0161 427 7777</span>
+                  <span>(11) 99999-9999</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />
-                  <span>info@marplephysio.com</span>
+                  <span>contato@andradeterapias.com.br</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <MapPin className="w-4 h-4" />
-                  <span>Stockport, Manchester</span>
+                  <span>São Paulo, SP</span>
                 </div>
               </div>
             </div>
           </div>
           <div className="border-t border-gray-700 mt-12 pt-8 text-center text-sm text-gray-400">
-            <p>&copy; 2024 Marple Physio. All rights reserved.</p>
+            <p>&copy; 2024 Andrade Terapias. Todos os direitos reservados.</p>
           </div>
         </div>
       </footer>
