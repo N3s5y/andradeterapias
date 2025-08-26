@@ -52,6 +52,14 @@ export default {
           foreground: "hsl(var(--brand-foreground))",
           dark: "hsl(var(--brand-dark))",
         },
+        theme: {
+          orange: "#e18f29",
+          teal: "#1f4b57",
+          cream: "#f2f2ed",
+          mint: "#5cb8b2",
+          charcoal: "#202020",
+          silver: "#d9d9d6",
+        },
         sidebar: {
           DEFAULT: "hsl(var(--sidebar-background))",
           foreground: "hsl(var(--sidebar-foreground))",
