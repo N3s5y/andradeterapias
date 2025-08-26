@@ -325,7 +325,7 @@ export default function Index() {
               </div>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Links Rápidos</h4>
+              <h4 className="font-bold mb-4 font-subtitle">Links Rápidos</h4>
               <div className="space-y-2 text-sm text-gray-400">
                 <div>Sobre Nós</div>
                 <div>Serviços</div>
@@ -335,7 +335,7 @@ export default function Index() {
               </div>
             </div>
             <div>
-              <h4 className="font-bold mb-4">Informações de Contato</h4>
+              <h4 className="font-bold mb-4 font-subtitle">Informações de Contato</h4>
               <div className="space-y-3 text-sm text-gray-400">
                 <div className="flex items-center space-x-2">
                   <Phone className="w-4 h-4" />
