@@ -14,11 +14,11 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-3xl font-bold mb-6 font-title">Andrade Terapias é uma clínica especializada em quiropraxia e massagem terapêutica.</h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 font-body">
                 Como uma das principais clínicas especializadas em quiropraxia e massagem terapêutica, 
                 oferecemos uma gama completa de serviços para ajudá-lo a retornar à sua saúde e bem-estar ideais.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 font-body">
                 Nossa equipe de profissionais altamente qualificados e experientes avaliará sua condição e 
                 fornecerá um plano de tratamento individual para ajudá-lo a alcançar seus objetivos.
               </p>
@@ -45,7 +45,7 @@ export default function Index() {
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
               <h2 className="text-3xl font-bold mb-6 font-title">Nossa sala de massagem terapêutica especializada</h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 font-body">
                 Temos o prazer de anunciar nossa sala de massagem terapêutica totalmente equipada. 
                 Nosso espaço oferece tanto sessões individuais quanto tratamentos personalizados.
               </p>
@@ -107,11 +107,11 @@ export default function Index() {
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
               <h2 className="text-3xl font-bold mb-6 font-title">Oferecendo níveis excepcionais de cuidado e atenção pessoal</h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 font-body">
                 Nossos quiropráticos e massoterapeutas têm ampla experiência no tratamento de uma grande variedade 
                 de condições musculoesqueléticas e lesões esportivas.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 font-body">
                 Fornecemos um serviço profissional e amigável com consultas disponíveis em horários que se adequem 
                 a você, incluindo manhã cedo, noites e fins de semana.
               </p>
@@ -131,11 +131,11 @@ export default function Index() {
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
               <h2 className="text-3xl font-bold mb-6 font-title">Tratamento particular de quiropraxia e massagem</h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 font-body">
                 Oferecemos serviços privados abrangentes de quiropraxia e massagem como uma alternativa aos tratamentos convencionais. 
                 Nosso serviço privado significa tempos de espera mais curtos e mais opções de tratamento.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 font-body">
                 Aceitamos a maioria das apólices de seguro médico privado e também podemos fornecer tratamento 
                 com autofinanciamento a preços competitivos.
               </p>
@@ -176,11 +176,11 @@ export default function Index() {
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
               <h2 className="text-3xl font-bold mb-6 font-title">Quando orientação e ajuda serão fornecidas?</h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 font-body">
                 Nossa clínica oferece um ambiente confortável e profissional para seu tratamento. 
                 Temos instalações modernas equipadas com os mais recentes equipamentos de quiropraxia e massagem.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-600 mb-4 font-body">
                 Oferecemos horários flexíveis de consulta para se adequar à sua agenda, incluindo consultas 
                 de manhã cedo e à noite.
               </p>
