@@ -13,7 +13,7 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6">Andrade Terapias é uma clínica especializada em quiropraxia e massagem terapêutica.</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Andrade Terapias é uma clínica especializada em quiropraxia e massagem terapêutica.</h2>
               <p className="text-gray-600 mb-4">
                 Como uma das principais clínicas especializadas em quiropraxia e massagem terapêutica, 
                 oferecemos uma gama completa de serviços para ajudá-lo a retornar à sua saúde e bem-estar ideais.
@@ -44,7 +44,7 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6">Nossa sala de massagem terapêutica especializada</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Nossa sala de massagem terapêutica especializada</h2>
               <p className="text-gray-600 mb-4">
                 Temos o prazer de anunciar nossa sala de massagem terapêutica totalmente equipada. 
                 Nosso espaço oferece tanto sessões individuais quanto tratamentos personalizados.
@@ -106,7 +106,7 @@ export default function Index() {
             </div>
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6">Oferecendo níveis excepcionais de cuidado e atenção pessoal</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Oferecendo níveis excepcionais de cuidado e atenção pessoal</h2>
               <p className="text-gray-600 mb-4">
                 Nossos quiropráticos e massoterapeutas têm ampla experiência no tratamento de uma grande variedade 
                 de condições musculoesqueléticas e lesões esportivas.
@@ -130,7 +130,7 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6">Tratamento particular de quiropraxia e massagem</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Tratamento particular de quiropraxia e massagem</h2>
               <p className="text-gray-600 mb-4">
                 Oferecemos serviços privados abrangentes de quiropraxia e massagem como uma alternativa aos tratamentos convencionais. 
                 Nosso serviço privado significa tempos de espera mais curtos e mais opções de tratamento.
@@ -175,7 +175,7 @@ export default function Index() {
             </div>
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6">Quando orientação e ajuda serão fornecidas?</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Quando orientação e ajuda serão fornecidas?</h2>
               <p className="text-gray-600 mb-4">
                 Nossa clínica oferece um ambiente confortável e profissional para seu tratamento. 
                 Temos instalações modernas equipadas com os mais recentes equipamentos de quiropraxia e massagem.
