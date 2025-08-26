@@ -18,13 +18,13 @@ const Hero = () => {
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
         {/* Subtitle */}
         <p className="text-brand text-lg md:text-xl lg:text-2xl italic font-light mb-8 max-w-4xl">
-          Leading providers of specialist physiotherapy in Stockport
+          Especialistas em quiropraxia e massagem terapêutica
         </p>
 
         {/* Main Heading */}
         <h1 className="text-white text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-wider mb-16 max-w-6xl leading-tight">
-          EXPERT ADVICE &<br />
-          EFFECTIVE TREATMENT
+          ORIENTAÇÃO ESPECIALIZADA &<br />
+          TRATAMENTO EFICAZ
         </h1>
 
         {/* Down Arrow */}
