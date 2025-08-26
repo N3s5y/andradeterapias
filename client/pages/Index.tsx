@@ -49,7 +49,7 @@ export default function Index() {
                 Temos o prazer de anunciar nossa sala de massagem terapêutica totalmente equipada. 
                 Nosso espaço oferece tanto sessões individuais quanto tratamentos personalizados.
               </p>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 mb-6 font-body">
                 A massagem terapêutica é uma abordagem baseada em evidências que se concentra no 
                 alívio da dor, relaxamento muscular e melhoria da circulação sanguínea.
               </p>
@@ -139,7 +139,7 @@ export default function Index() {
                 Aceitamos a maioria das apólices de seguro médico privado e também podemos fornecer tratamento 
                 com autofinanciamento a preços competitivos.
               </p>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 mb-6 font-body">
                 Todos os tratamentos são fornecidos por quiropráticos e massoterapeutas qualificados com ampla 
                 experiência clínica.
               </p>
@@ -184,7 +184,7 @@ export default function Index() {
                 Oferecemos horários flexíveis de consulta para se adequar à sua agenda, incluindo consultas 
                 de manhã cedo e à noite.
               </p>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 mb-6 font-body">
                 Estacionamento gratuito está disponível diretamente em frente à nossa clínica, tornando sua 
                 visita o mais conveniente possível.
               </p>
@@ -202,7 +202,7 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12">
             <div>
               <h2 className="text-3xl font-bold mb-6">Para agendar sua consulta, preencha nosso formulário de agendamento online*</h2>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-600 mb-6 font-body">
                 Por favor, preencha o formulário e entraremos em contato para agendar sua consulta. 
                 Alternativamente, você pode nos ligar diretamente.
               </p>
