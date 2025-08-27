@@ -10,3 +10,23 @@
 export interface DemoResponse {
   message: string;
 }
+
+/**
+ * Request type for appointment form
+ */
+export interface AppointmentRequest {
+  name: string;
+  email: string;
+  phone: string;
+  preferredDate: string;
+  message?: string;
+}
+
+/**
+ * Response type for appointment form submission
+ */
+export interface AppointmentResponse {
+  success: boolean;
+  message: string;
+  errors?: any[];
+}
