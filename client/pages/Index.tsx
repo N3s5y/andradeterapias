@@ -229,6 +229,7 @@ export default function Index() {
             </div>
             <AppointmentForm />
           </div>
+          <EmailSetupInstructions />
         </div>
       </section>
 
