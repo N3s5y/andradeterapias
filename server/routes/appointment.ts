@@ -16,13 +16,20 @@ export const handleAppointment: RequestHandler = async (req, res) => {
     // Validate the request body
     const validatedData = appointmentSchema.parse(req.body);
 
+    // Check if email credentials are configured
+    if (!process.env.EMAIL_USER || !process.env.EMAIL_PASS || process.env.EMAIL_PASS === 'temp-password-needs-config') {
+      return res.status(500).json({
+        success: false,
+        message: 'Configuração de e-mail necessária. Por favor, configure EMAIL_USER e EMAIL_PASS nas variáveis de ambiente.'
+      });
+    }
+
     // Create transporter using Gmail SMTP
-    // Note: In production, use environment variables for credentials
     const transporter = nodemailer.createTransporter({
       service: 'gmail',
       auth: {
-        user: process.env.EMAIL_USER || 'your-email@gmail.com',
-        pass: process.env.EMAIL_PASS || 'your-app-password'
+        user: process.env.EMAIL_USER,
+        pass: process.env.EMAIL_PASS
       }
     });
 
