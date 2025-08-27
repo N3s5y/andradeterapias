@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import AppointmentForm from "../components/AppointmentForm";
+import EmailSetupInstructions from "../components/EmailSetupInstructions";
 import { Star, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function Index() {
