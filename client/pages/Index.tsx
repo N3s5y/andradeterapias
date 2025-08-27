@@ -226,34 +226,7 @@ export default function Index() {
                 <p className="text-sm text-gray-600">Avaliações no Google</p>
               </div>
             </div>
-            <div className="bg-white p-8 rounded-lg shadow-lg">
-              <h3 className="text-xl font-bold mb-6 font-subtitle">Agendamento Online</h3>
-              <form className="space-y-4">
-                <div>
-                  <label className="block text-sm font-medium mb-1 font-body">Nome</label>
-                  <input type="text" className="w-full border border-gray-300 px-3 py-2 rounded" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-1 font-body">E-mail</label>
-                  <input type="email" className="w-full border border-gray-300 px-3 py-2 rounded" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-1 font-body">Telefone</label>
-                  <input type="tel" className="w-full border border-gray-300 px-3 py-2 rounded" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-1 font-body">Data Preferida</label>
-                  <input type="date" className="w-full border border-gray-300 px-3 py-2 rounded" />
-                </div>
-                <div>
-                  <label className="block text-sm font-medium mb-1 font-body">Mensagem</label>
-                  <textarea rows={4} className="w-full border border-gray-300 px-3 py-2 rounded"></textarea>
-                </div>
-                <button className="w-full bg-brand text-black py-3 font-bold hover:bg-brand-dark transition-colors">
-                  ENVIAR MENSAGEM
-                </button>
-              </form>
-            </div>
+            <AppointmentForm />
           </div>
         </div>
       </section>
