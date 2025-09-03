@@ -1,7 +1,6 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import AppointmentForm from "../components/AppointmentForm";
-import EmailSetupInstructions from "../components/EmailSetupInstructions";
 import { Star, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function Index() {
@@ -211,7 +210,7 @@ export default function Index() {
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
                   <Phone className="w-5 h-5 text-brand" />
-                  <span className="font-medium">(11) 99999-9999</span>
+                  <span className="font-medium">(11) 99321-5744</span>
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-brand" />
@@ -229,7 +228,6 @@ export default function Index() {
             </div>
             <AppointmentForm />
           </div>
-          <EmailSetupInstructions />
         </div>
       </section>
 
