@@ -202,10 +202,10 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
-              <h2 className="text-3xl font-bold mb-6 font-title">Para agendar sua consulta, preencha nosso formulário de agendamento online*</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Preencha sua ficha de paciente*</h2>
               <p className="text-gray-600 mb-6 font-body">
-                Por favor, preencha o formulário e entraremos em contato para agendar sua consulta. 
-                Alternativamente, você pode nos ligar diretamente.
+                Complete nossa ficha detalhada para que possamos conhecer melhor seu caso e
+                oferecer o melhor atendimento. Alternativamente, você pode nos ligar diretamente.
               </p>
               <div className="space-y-4">
                 <div className="flex items-center space-x-3">
