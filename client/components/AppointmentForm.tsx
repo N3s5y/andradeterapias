@@ -3,10 +3,16 @@ import { useState } from "react";
 const AppointmentForm = () => {
   const [formData, setFormData] = useState({
     name: "",
-    email: "",
-    phone: "",
-    preferredDate: "",
-    message: "",
+    age: "",
+    gender: "",
+    weight: "",
+    height: "",
+    profession: "",
+    sports: "",
+    birthday: "",
+    surgery: "",
+    complaint: "",
+    illness: "",
   });
 
   const [isSubmitting, setIsSubmitting] = useState(false);
@@ -16,7 +22,7 @@ const AppointmentForm = () => {
   }>({ type: null, message: "" });
 
   const handleInputChange = (
-    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
+    e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement | HTMLSelectElement>
   ) => {
     const { name, value } = e.target;
     setFormData((prev) => ({
@@ -31,40 +37,64 @@ const AppointmentForm = () => {
     setSubmitStatus({ type: null, message: "" });
 
     // Format the message for WhatsApp
-    const whatsappMessage = `*Nova Solicitação de Agendamento - Andrade Terapias*
+    const whatsappMessage = `*Ficha do Paciente - Andrade Terapias*
 
+Seja bem-vindo(a) 👋🏻
+Preencha a ficha e logo retornaremos o contato. Aguarde um momento, o terapeuta pode estar ocupado! 🙏🏻
+
+*Ficha do paciente*
 *Nome:* ${formData.name}
-*E-mail:* ${formData.email}
-*Telefone:* ${formData.phone}
-*Data Preferida:* ${formData.preferredDate}${formData.message ? `
-*Mensagem:* ${formData.message}` : ''}`;
+*Idade:* ${formData.age}
+*Sexo:* ${formData.gender}
+*Peso:* ${formData.weight}
+*Altura:* ${formData.height}
+*Profissão:* ${formData.profession}
+*Esporte/ativ. Física:* ${formData.sports}
+*Aniversário:* ${formData.birthday}
+
+*Alguma cirurgia?*
+R= ${formData.surgery}
+
+*Queixa: O que o fez procurar a massoterapia/quiropraxia?*
+R= ${formData.complaint}
+
+*Gripe, moléstia ou tumor atualmente?*
+R= ${formData.illness}
+
+Lugar livre de preconceitos`;
 
     // Encode the message for URL
     const encodedMessage = encodeURIComponent(whatsappMessage);
-
+    
     // WhatsApp number (remove any formatting and add country code)
     const whatsappNumber = "5511993215744";
-
+    
     // Create WhatsApp URL
     const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
-
+    
     // Open WhatsApp
     window.open(whatsappUrl, '_blank');
-
+    
     // Show success message
     setSubmitStatus({
       type: "success",
-      message: "Redirecionando para WhatsApp com suas informações preenchidas!",
+      message: "Redirecionando para WhatsApp com sua ficha preenchida!",
     });
-
+    
     // Reset form after a delay
     setTimeout(() => {
       setFormData({
         name: "",
-        email: "",
-        phone: "",
-        preferredDate: "",
-        message: "",
+        age: "",
+        gender: "",
+        weight: "",
+        height: "",
+        profession: "",
+        sports: "",
+        birthday: "",
+        surgery: "",
+        complaint: "",
+        illness: "",
       });
       setSubmitStatus({ type: null, message: "" });
       setIsSubmitting(false);
@@ -73,7 +103,14 @@ const AppointmentForm = () => {
 
   return (
     <div className="bg-white p-8 rounded-lg shadow-lg">
-      <h3 className="text-xl font-bold mb-6 font-subtitle">Agendamento Online</h3>
+      <div className="text-center mb-8">
+        <h3 className="text-xl font-bold mb-4 font-subtitle">Seja bem-vindo(a) 👋🏻</h3>
+        <p className="text-gray-600 font-body">
+          Preencha a ficha e logo retornaremos o contato. Aguarde um momento, o terapeuta pode estar ocupado! 🙏🏻
+        </p>
+      </div>
+
+      <h4 className="text-lg font-bold mb-6 font-subtitle">Ficha do paciente</h4>
 
       {/* Status Messages */}
       {submitStatus.type && (
@@ -89,9 +126,10 @@ const AppointmentForm = () => {
       )}
 
       <form onSubmit={handleSubmit} className="space-y-4">
+        {/* Nome */}
         <div>
           <label className="block text-sm font-medium mb-1 font-body">
-            Nome *
+            Nome: *
           </label>
           <input
             type="text"
@@ -103,60 +141,165 @@ const AppointmentForm = () => {
           />
         </div>
 
+        {/* Idade */}
         <div>
           <label className="block text-sm font-medium mb-1 font-body">
-            E-mail *
+            Idade: *
           </label>
           <input
-            type="email"
-            name="email"
-            value={formData.email}
+            type="number"
+            name="age"
+            value={formData.age}
+            onChange={handleInputChange}
+            required
+            min="1"
+            max="120"
+            className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
+          />
+        </div>
+
+        {/* Sexo */}
+        <div>
+          <label className="block text-sm font-medium mb-1 font-body">
+            Sexo: *
+          </label>
+          <select
+            name="gender"
+            value={formData.gender}
+            onChange={handleInputChange}
+            required
+            className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
+          >
+            <option value="">Selecione...</option>
+            <option value="Masculino">Masculino</option>
+            <option value="Feminino">Feminino</option>
+            <option value="Outro">Outro</option>
+          </select>
+        </div>
+
+        {/* Peso */}
+        <div>
+          <label className="block text-sm font-medium mb-1 font-body">
+            Peso: *
+          </label>
+          <input
+            type="text"
+            name="weight"
+            value={formData.weight}
+            onChange={handleInputChange}
+            required
+            placeholder="Ex: 70kg"
+            className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
+          />
+        </div>
+
+        {/* Altura */}
+        <div>
+          <label className="block text-sm font-medium mb-1 font-body">
+            Altura: *
+          </label>
+          <input
+            type="text"
+            name="height"
+            value={formData.height}
+            onChange={handleInputChange}
+            required
+            placeholder="Ex: 1,75m"
+            className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
+          />
+        </div>
+
+        {/* Profissão */}
+        <div>
+          <label className="block text-sm font-medium mb-1 font-body">
+            Profissão: *
+          </label>
+          <input
+            type="text"
+            name="profession"
+            value={formData.profession}
             onChange={handleInputChange}
             required
             className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
           />
         </div>
 
+        {/* Esporte/Atividade Física */}
         <div>
           <label className="block text-sm font-medium mb-1 font-body">
-            Telefone *
+            Esporte/ativ. Física: *
           </label>
           <input
-            type="tel"
-            name="phone"
-            value={formData.phone}
+            type="text"
+            name="sports"
+            value={formData.sports}
             onChange={handleInputChange}
             required
+            placeholder="Ex: Futebol, Academia, Corrida, Nenhuma"
             className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
           />
         </div>
 
+        {/* Aniversário */}
         <div>
           <label className="block text-sm font-medium mb-1 font-body">
-            Data Preferida *
+            Aniversário: *
           </label>
           <input
             type="date"
-            name="preferredDate"
-            value={formData.preferredDate}
+            name="birthday"
+            value={formData.birthday}
             onChange={handleInputChange}
             required
-            min={new Date().toISOString().split("T")[0]} // Prevent past dates
             className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
           />
         </div>
 
+        {/* Alguma cirurgia */}
         <div>
           <label className="block text-sm font-medium mb-1 font-body">
-            Mensagem
+            Alguma cirurgia? *
           </label>
           <textarea
-            name="message"
-            value={formData.message}
+            name="surgery"
+            value={formData.surgery}
             onChange={handleInputChange}
-            rows={4}
+            required
+            rows={2}
+            placeholder="Descreva se já passou por alguma cirurgia ou digite 'Não' se nunca fez"
             className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
-            placeholder="Descreva brevemente sua condição ou motivo da consulta..."
+          />
+        </div>
+
+        {/* Queixa */}
+        <div>
+          <label className="block text-sm font-medium mb-1 font-body">
+            Queixa: O que o fez procurar a massoterapia/quiropraxia? *
+          </label>
+          <textarea
+            name="complaint"
+            value={formData.complaint}
+            onChange={handleInputChange}
+            required
+            rows={3}
+            placeholder="Descreva sua dor, desconforto ou motivo da consulta..."
+            className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
+          />
+        </div>
+
+        {/* Gripe, moléstia ou tumor */}
+        <div>
+          <label className="block text-sm font-medium mb-1 font-body">
+            Gripe, moléstia ou tumor atualmente? *
+          </label>
+          <textarea
+            name="illness"
+            value={formData.illness}
+            onChange={handleInputChange}
+            required
+            rows={2}
+            placeholder="Descreva se está com alguma dessas condições ou digite 'Não'"
+            className="w-full border border-gray-300 px-3 py-2 rounded focus:outline-none focus:ring-2 focus:ring-brand focus:border-transparent font-body"
           />
         </div>
 
@@ -173,9 +316,14 @@ const AppointmentForm = () => {
         </button>
       </form>
 
-      <p className="text-xs text-gray-500 mt-4 font-body">
-        * Campos obrigatórios. Você será redirecionado para o WhatsApp com suas informações preenchidas.
-      </p>
+      <div className="mt-6 text-center">
+        <p className="text-xs text-gray-500 mb-2 font-body">
+          * Campos obrigatórios. Você será redirecionado para o WhatsApp com sua ficha preenchida.
+        </p>
+        <p className="text-sm text-brand font-medium italic">
+          Lugar livre de preconceitos
+        </p>
+      </div>
     </div>
   );
 };
