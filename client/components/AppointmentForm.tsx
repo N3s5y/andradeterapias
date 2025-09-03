@@ -1,8 +1,7 @@
 import { useState } from "react";
-import { AppointmentRequest, AppointmentResponse } from "@shared/api";
 
 const AppointmentForm = () => {
-  const [formData, setFormData] = useState<AppointmentRequest>({
+  const [formData, setFormData] = useState({
     name: "",
     email: "",
     phone: "",
@@ -26,49 +25,50 @@ const AppointmentForm = () => {
     }));
   };
 
-  const handleSubmit = async (e: React.FormEvent) => {
+  const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
     setSubmitStatus({ type: null, message: "" });
 
-    try {
-      const response = await fetch("/api/appointment", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify(formData),
-      });
+    // Format the message for WhatsApp
+    const whatsappMessage = `*Nova Solicitação de Agendamento - Andrade Terapias*
 
-      const result: AppointmentResponse = await response.json();
+*Nome:* ${formData.name}
+*E-mail:* ${formData.email}
+*Telefone:* ${formData.phone}
+*Data Preferida:* ${formData.preferredDate}${formData.message ? `
+*Mensagem:* ${formData.message}` : ''}`;
 
-      if (result.success) {
-        setSubmitStatus({
-          type: "success",
-          message: result.message,
-        });
-        // Reset form
-        setFormData({
-          name: "",
-          email: "",
-          phone: "",
-          preferredDate: "",
-          message: "",
-        });
-      } else {
-        setSubmitStatus({
-          type: "error",
-          message: result.message,
-        });
-      }
-    } catch (error) {
-      setSubmitStatus({
-        type: "error",
-        message: "Erro ao enviar formulário. Tente novamente.",
+    // Encode the message for URL
+    const encodedMessage = encodeURIComponent(whatsappMessage);
+
+    // WhatsApp number (remove any formatting and add country code)
+    const whatsappNumber = "5511993215744";
+
+    // Create WhatsApp URL
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodedMessage}`;
+
+    // Open WhatsApp
+    window.open(whatsappUrl, '_blank');
+
+    // Show success message
+    setSubmitStatus({
+      type: "success",
+      message: "Redirecionando para WhatsApp com suas informações preenchidas!",
+    });
+
+    // Reset form after a delay
+    setTimeout(() => {
+      setFormData({
+        name: "",
+        email: "",
+        phone: "",
+        preferredDate: "",
+        message: "",
       });
-    } finally {
+      setSubmitStatus({ type: null, message: "" });
       setIsSubmitting(false);
-    }
+    }, 3000);
   };
 
   return (
@@ -169,12 +169,12 @@ const AppointmentForm = () => {
               : "bg-brand text-black hover:bg-brand-dark"
           }`}
         >
-          {isSubmitting ? "ENVIANDO..." : "ENVIAR MENSAGEM"}
+          {isSubmitting ? "ABRINDO WHATSAPP..." : "ENVIAR VIA WHATSAPP"}
         </button>
       </form>
 
       <p className="text-xs text-gray-500 mt-4 font-body">
-        * Campos obrigatórios. Entraremos em contato em até 24 horas.
+        * Campos obrigatórios. Você será redirecionado para o WhatsApp com suas informações preenchidas.
       </p>
     </div>
   );
