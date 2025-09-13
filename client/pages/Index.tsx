@@ -69,30 +69,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Services Grid */}
-      <section className="py-16 bg-gray-50">
-        <div className="container mx-auto px-6">
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
-            {[
-              "Avaliação Quiroprática",
-              "Tratamento de Lesões", 
-              "Massagem Terapêutica",
-              "Problemas da Coluna",
-              "Mobilização Articular",
-              "Tratamento de Tecidos Moles",
-              "Reabilitação com Exercícios",
-              "Avaliação Postural"
-            ].map((service, index) => (
-              <button 
-                key={index}
-                className="bg-brand text-black p-4 font-bold text-sm hover:bg-brand-dark transition-colors text-center font-body"
-              >
-                {service}
-              </button>
-            ))}
-          </div>
-        </div>
-      </section>
 
       {/* Team Member Section */}
       <section className="py-16">
