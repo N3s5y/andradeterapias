@@ -104,32 +104,28 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6 font-title">Tratamento particular de quiropraxia e massagem</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Nossa abordagem</h2>
               <p className="text-gray-600 mb-4 font-body">
-                Oferecemos serviços privados abrangentes de quiropraxia e massagem como uma alternativa aos tratamentos convencionais. 
-                Nosso serviço privado significa tempos de espera mais curtos e mais opções de tratamento.
+                Aqui, não medimos o tempo de sessão como parâmetro, e sim o resultado. Por isso, uma sessão pode variar entre 1h40 a 3h de duração, sempre por um valor único, com foco em:
               </p>
-              <p className="text-gray-600 mb-4 font-body">
-                Aceitamos a maioria das apólices de seguro médico privado e também podemos fornecer tratamento 
-                com autofinanciamento a preços competitivos.
-              </p>
-              <p className="text-gray-600 mb-6 font-body">
-                Todos os tratamentos são fornecidos por quiropráticos e massoterapeutas qualificados com ampla 
-                experiência clínica.
-              </p>
-              <button className="bg-brand text-black px-6 py-3 font-bold hover:bg-brand-dark transition-colors">
-                VEJA NOSSOS SERVIÇOS
-              </button>
+              <ul className="list-disc pl-5 space-y-2 text-gray-600 mb-6 font-body">
+                <li>alívio de dores e tensões musculares,</li>
+                <li>aumento da mobilidade articular,</li>
+                <li>recuperação física,</li>
+                <li>redução do estresse mental.</li>
+              </ul>
             </div>
             <div className="bg-brand/10 p-8 rounded-lg">
-              <h3 className="text-xl font-bold mb-4 font-subtitle">O tratamento inclui:</h3>
-              <ul className="space-y-2 text-gray-600">
-                <li>• Avaliação e diagnóstico abrangentes</li>
-                <li>• Planos de tratamento individuais</li>
-                <li>• Técnicas de terapia manual</li>
-                <li>• Prescrição de exercícios</li>
-                <li>• Orientação e educação</li>
-                <li>• Suporte e monitoramento contínuos</li>
+              <h3 className="text-xl font-bold mb-4 font-subtitle">Técnicas integradas</h3>
+              <ul className="space-y-2 text-gray-600 font-body">
+                <li>• Shiatsu</li>
+                <li>• Drenagem linfática</li>
+                <li>• Liberação miofascial</li>
+                <li>• Terapias desportivas</li>
+                <li>• Ajustes quiropráticos</li>
+                <li>• Manipulações inspiradas na osteopatia</li>
+                <li>• Alongamentos</li>
+                <li>• Relaxamento profundo</li>
               </ul>
             </div>
           </div>
@@ -149,22 +145,22 @@ export default function Index() {
             </div>
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6 font-title">Quando orientação e ajuda serão fornecidas?</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Recursos complementares</h2>
+              <p className="text-gray-600 mb-4 font-body">Quando necessário, acrescentamos recursos complementares, como:</p>
+              <ul className="list-disc pl-5 space-y-2 text-gray-600 mb-6 font-body">
+                <li>Dry Needling (agulhamento a seco),</li>
+                <li>bandagem elástica e rígida (inclusive para suporte em casos de lipedema),</li>
+                <li>protocolos para bruxismo,</li>
+                <li>recovery esportivo para atletas amadores e profissionais,</li>
+                <li>ativações pré-competição,</li>
+                <li>massagens relaxantes especiais, como a ayurvédica com os pés, entre outras técnicas avançadas.</li>
+              </ul>
               <p className="text-gray-600 mb-4 font-body">
-                Nossa clínica oferece um ambiente confortável e profissional para seu tratamento. 
-                Temos instalações modernas equipadas com os mais recentes equipamentos de quiropraxia e massagem.
+                Independentemente do seu caso, vamos encontrar a melhor forma de cuidar de você. Se houver restrições ou receios, conversaremos e montaremos um protocolo personalizado, seja para homens, mulheres, idosos ou crianças.
               </p>
-              <p className="text-gray-600 mb-4 font-body">
-                Oferecemos horários flexíveis de consulta para se adequar à sua agenda, incluindo consultas 
-                de manhã cedo e à noite.
+              <p className="text-gray-600 font-body">
+                Nosso espaço é livre de preconceitos e está preparado para oferecer um atendimento de excelência. Venha conhecer a revolução das terapias corporais e viver a experiência de protocolos classe A.
               </p>
-              <p className="text-gray-600 mb-6 font-body">
-                Estacionamento gratuito está disponível diretamente em frente à nossa clínica, tornando sua 
-                visita o mais conveniente possível.
-              </p>
-              <button className="bg-brand text-black px-6 py-3 font-bold hover:bg-brand-dark transition-colors">
-                AGENDAR CONSULTA
-              </button>
             </div>
           </div>
         </div>
