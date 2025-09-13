@@ -39,35 +39,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Massage Centre Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6 font-title">Nossa sala de massagem terapêutica especializada</h2>
-              <p className="text-gray-600 mb-4 font-body">
-                Temos o prazer de anunciar nossa sala de massagem terapêutica totalmente equipada. 
-                Nosso espaço oferece tanto sessões individuais quanto tratamentos personalizados.
-              </p>
-              <p className="text-gray-600 mb-6 font-body">
-                A massagem terapêutica é uma abordagem baseada em evidências que se concentra no 
-                alívio da dor, relaxamento muscular e melhoria da circulação sanguínea.
-              </p>
-              <button className="bg-brand text-black px-6 py-3 font-bold hover:bg-brand-dark transition-colors">
-                SAIBA MAIS
-              </button>
-            </div>
-            <div>
-              <img 
-                src="/pilates-studio.jpg" 
-                alt="Sala de massagem terapêutica" 
-                className="w-full h-80 object-cover rounded-lg"
-              />
-            </div>
-          </div>
-        </div>
-      </section>
 
 
       {/* Team Member Section */}
