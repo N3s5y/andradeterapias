@@ -102,7 +102,7 @@ export default function Index() {
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F5b56f8f5980f41ff93e4ace9d0c3a626?format=webp&width=800"
                 alt="Tiago Andrade - Terapeuta"
-                className="w-full h-96 object-cover rounded-lg"
+                className="mx-auto w-full max-w-sm md:max-w-md object-contain rounded-lg"
               />
             </div>
             <div>
