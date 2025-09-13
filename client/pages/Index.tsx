@@ -99,26 +99,23 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <img 
-                src="/team-member.jpg" 
-                alt="Membro da equipe de quiropraxia" 
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F5b56f8f5980f41ff93e4ace9d0c3a626?format=webp&width=800"
+                alt="Tiago Andrade - Terapeuta"
                 className="w-full h-96 object-cover rounded-lg"
               />
             </div>
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6 font-title">Oferecendo níveis excepcionais de cuidado e atenção pessoal</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Sobre mim</h2>
               <p className="text-gray-600 mb-4 font-body">
-                Nossos quiropráticos e massoterapeutas têm ampla experiência no tratamento de uma grande variedade 
-                de condições musculoesqueléticas e lesões esportivas.
+                Meu nome é Tiago Andrade, sou especialista em terapias corporais. Mineiro de origem, cresci em Brasília e atuo profissionalmente em São Paulo desde 2023.
               </p>
               <p className="text-gray-600 mb-4 font-body">
-                Fornecemos um serviço profissional e amigável com consultas disponíveis em horários que se adequem 
-                a você, incluindo manhã cedo, noites e fins de semana.
+                Além do meu trabalho, também sou atleta de ciclismo, com passagem por diversos esportes ao longo da vida, como skate e artes marciais. Essa vivência esportiva me trouxe experiência prática para compreender melhor as dores, limitações e necessidades de cada corpo.
               </p>
-              <p className="text-gray-600">
-                Cada sessão de tratamento é adaptada às suas necessidades individuais, garantindo que você receba 
-                o cuidado mais apropriado para sua condição.
+              <p className="text-gray-600 font-body">
+                O projeto Andrade Terapias nasceu para transformar a forma como a massagem e as terapias corporais são vistas, elevando o cuidado a um novo nível. Cada protocolo é único, construído de acordo com as queixas, necessidades e objetivos de cada paciente.
               </p>
             </div>
           </div>
