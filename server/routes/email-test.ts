@@ -26,7 +26,7 @@ export const handleEmailTest: RequestHandler = async (req, res) => {
     // Send test email
     const testMailOptions = {
       from: process.env.EMAIL_USER,
-      to: 'estudiomecurio@gmail.com',
+      to: 'massagemdeverdade@gmail.com',
       subject: 'Teste de Configuração - Andrade Terapias',
       html: `
         <h2>Teste de E-mail</h2>
@@ -41,7 +41,7 @@ export const handleEmailTest: RequestHandler = async (req, res) => {
 
     res.json({ 
       success: true, 
-      message: 'E-mail de teste enviado com sucesso! Verifique a caixa de entrada de estudiomecurio@gmail.com' 
+      message: 'E-mail de teste enviado com sucesso! Verifique a caixa de entrada de massagemdeverdade@gmail.com' 
     });
 
   } catch (error) {

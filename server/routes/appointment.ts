@@ -36,7 +36,7 @@ export const handleAppointment: RequestHandler = async (req, res) => {
     // Email content
     const mailOptions = {
       from: process.env.EMAIL_USER || 'noreply@andradeterapias.com',
-      to: 'estudiomecurio@gmail.com',
+      to: 'massagemdeverdade@gmail.com',
       subject: 'Nova Solicitação de Agendamento - Andrade Terapias',
       html: `
         <h2>Nova Solicitação de Agendamento</h2>

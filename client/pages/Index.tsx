@@ -155,7 +155,7 @@ export default function Index() {
                 </div>
                 <div className="flex items-center space-x-3">
                   <Mail className="w-5 h-5 text-brand" />
-                  <span>contato@andradeterapias.com.br</span>
+                  <span>massagemdeverdade@gmail.com</span>
                 </div>
               </div>
               <div className="mt-8">
@@ -196,7 +196,7 @@ Obrigado de verdade, e eu volto em breve.` },
                   { name: "Herbert Souza", text: `O Tiago é um excelente profissional. Faço com bastante frequência massagem por conta do esporte e posso garantir que a qualidade é muito superior com ele. Obrigado pelo ótimo trabalho.` },
                   { name: "Bruno Carvalho", text: `Conheci o trabalho do Tiago há cerca de 6 meses e, desde então, não tive mais crise de lombalgia. Um massoterapeuta incrível, com toque preciso e com conhecimento em diversas técnicas que, certamente, colocam a gente no eixo. Obrigado 🫂 e até breve! …` },
                   { name: "Patricia Z", text: `O Tiago é um massoterapeuta incrível, super atencioso,  cuidadoso, explica cada movimento.
-Indico a todos  que façam a massoterapia com esse profissional incrível, é extremamente relaxante  e a sensação é de estar mil vezes mais leve , a gente perde até a noção do tempo. Muito grata ! 🙏` },
+Indico a todos  que façam a massoterapia com esse profissional incrível, é extremamente relaxante  e a sensação é de estar mil vezes mais leve , a gente perde até a noção do tempo. Muito grata ! ����` },
                 ]}
               />
             </div>
@@ -261,7 +261,7 @@ Indico a todos  que façam a massoterapia com esse profissional incrível, é ex
                 </div>
                 <div className="flex items-center space-x-2">
                   <Mail className="w-4 h-4" />
-                  <span>contato@andradeterapias.com.br</span>
+                  <span>massagemdeverdade@gmail.com</span>
                 </div>
                 <div className="flex items-center space-x-2">
                   <MapPin className="w-4 h-4" />
