@@ -3,8 +3,8 @@ import { useEffect, useRef, useState } from "react";
 
 const Hero = () => {
   const videos = [
-    "https://cdn.builder.io/o/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2Fe8975cdb02c74ef9874627e55d3b513c?alt=media&token=aec7b351-8328-43fe-b016-9476ae3c89c0&apiKey=e7aabf8df4f14ee888b3b92af9b9197b",
-    "https://cdn.builder.io/o/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F2389a86c6b554bc099de54e81608a12b?alt=media&token=1ee3a052-424e-4775-b5d0-113d8ad024e4&apiKey=e7aabf8df4f14ee888b3b92af9b9197b",
+    "https://cdn.builder.io/o/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F090f90fbba59489b873cf734240ead67?alt=media&token=34026076-0a58-4961-9848-7f84bdd9524c&apiKey=e7aabf8df4f14ee888b3b92af9b9197b",
+    "https://cdn.builder.io/o/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F41156b2cee6e4bbfa18978a09034d12c?alt=media&token=54c021b4-0fb9-47a1-b278-6b001a7707f3&apiKey=e7aabf8df4f14ee888b3b92af9b9197b",
   ];
   const [active, setActive] = useState(0);
   const v0Ref = useRef<HTMLVideoElement>(null);
