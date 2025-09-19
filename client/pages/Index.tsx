@@ -79,7 +79,7 @@ export default function Index() {
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
               <img 
-                src="/clinic-room.jpg" 
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F8320ae0d48af4767af434d94bdbd7021?format=webp&width=800" 
                 alt="Sala de tratamento moderna da clínica" 
                 className="w-full h-80 object-cover rounded-lg"
               />
