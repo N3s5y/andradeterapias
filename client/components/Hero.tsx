@@ -1,15 +1,47 @@
 import { ChevronDown } from "lucide-react";
+import { useEffect, useRef, useState } from "react";
 
 const Hero = () => {
+  const videos = [
+    "https://cdn.builder.io/o/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2Fe8975cdb02c74ef9874627e55d3b513c?alt=media&token=aec7b351-8328-43fe-b016-9476ae3c89c0&apiKey=e7aabf8df4f14ee888b3b92af9b9197b",
+    "https://cdn.builder.io/o/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F2389a86c6b554bc099de54e81608a12b?alt=media&token=1ee3a052-424e-4775-b5d0-113d8ad024e4&apiKey=e7aabf8df4f14ee888b3b92af9b9197b",
+  ];
+  const [active, setActive] = useState(0);
+  const v0Ref = useRef<HTMLVideoElement>(null);
+  const v1Ref = useRef<HTMLVideoElement>(null);
+
+  useEffect(() => {
+    const play = (el: HTMLVideoElement | null) => {
+      try { el?.play(); } catch {}
+    };
+    play(v0Ref.current);
+    play(v1Ref.current);
+    const id = setInterval(() => setActive((a) => (a === 0 ? 1 : 0)), 8000);
+    return () => clearInterval(id);
+  }, []);
+
   return (
     <section className="relative h-screen w-full overflow-hidden">
-      {/* Background Image */}
-      <div
-        className="absolute inset-0 bg-cover bg-center bg-no-repeat grayscale"
-        style={{
-          backgroundImage: "url('https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F0fa7fb6728714bd6b685658883700fdf?format=webp&width=800')",
-        }}
-      >
+      {/* Background Videos */}
+      <div className="absolute inset-0 grayscale">
+        <video
+          ref={v0Ref}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${active === 0 ? "opacity-100" : "opacity-0"}`}
+          src={videos[0]}
+          muted
+          autoPlay
+          loop
+          playsInline
+        />
+        <video
+          ref={v1Ref}
+          className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${active === 1 ? "opacity-100" : "opacity-0"}`}
+          src={videos[1]}
+          muted
+          autoPlay
+          loop
+          playsInline
+        />
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/60"></div>
       </div>
