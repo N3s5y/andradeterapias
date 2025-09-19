@@ -15,9 +15,9 @@ export default function Index() {
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-3xl font-bold mb-6 font-title">Andrade Terapias é uma clínica especializada em quiropraxia e massagem terapêutica.</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title">Andrade Terapias é uma clínica especializada em massagem terapêutica com quiropraxia.</h2>
               <p className="text-gray-600 mb-4 font-body">
-                Como uma das principais clínicas especializadas em quiropraxia e massagem terapêutica, 
+                Como uma das principais clínicas especializadas em massagem terapêutica com quiropraxia, 
                 oferecemos uma gama completa de serviços para ajudá-lo a retornar à sua saúde e bem-estar ideais.
               </p>
               <p className="text-gray-600 mb-4 font-body">
@@ -32,7 +32,7 @@ export default function Index() {
             <div className="relative">
               <div className="bg-brand h-1 w-12 mb-6"></div>
               <p className="text-gray-600 italic">
-                "Estamos comprometidos em fornecer cuidados de quiropraxia e massagem da mais alta qualidade 
+                "Estamos comprometidos em fornecer cuidados de massagem com quiropraxia da mais alta qualidade 
                 em um ambiente amigável e profissional."
               </p>
             </div>
@@ -222,7 +222,7 @@ Indico a todos  que façam a massoterapia com esse profissional incrível, é ex
                 </div>
               </div>
               <p className="text-gray-400 text-sm">
-                Especialistas em quiropraxia e massagem terapêutica.
+                Especialistas em massagem terapêutica com quiropraxia.
               </p>
             </div>
             <div>
