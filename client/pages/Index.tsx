@@ -59,7 +59,7 @@ export default function Index() {
             <div className="bg-brand/10 p-8 rounded-lg">
               <h3 className="text-xl font-bold mb-4 font-subtitle">Técnicas integradas</h3>
               <ul className="space-y-2 text-gray-600 font-body">
-                <li>• Shiatsu</li>
+                <li>�� Shiatsu</li>
                 <li>• Drenagem linfática</li>
                 <li>• Liberação miofascial</li>
                 <li>• Terapias desportivas</li>
@@ -110,9 +110,9 @@ export default function Index() {
       {/* Booking Section */}
       <section className="py-16 bg-gray-100 overflow-x-hidden">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12">
+          <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-full">
             <div>
-              <h2 className="text-3xl font-bold mb-6 font-title">Preencha sua ficha de paciente*</h2>
+              <h2 className="text-3xl font-bold mb-6 font-title break-words">Preencha sua ficha de paciente*</h2>
               <p className="text-gray-600 mb-6 font-body">
                 Complete nossa ficha detalhada para que possamos conhecer melhor seu caso e
                 oferecer o melhor atendimento. Alternativamente, você pode nos ligar diretamente.
