@@ -112,7 +112,8 @@
   }
 
   body {
-    @apply bg-background text-foreground overflow-x-hidden;
+    @apply bg-background text-foreground;
+    overflow-x: hidden;
     font-family: 'Futura PT', 'Montserrat', sans-serif;
   }
 
