@@ -1,6 +1,7 @@
 import Header from "../components/Header";
 import Hero from "../components/Hero";
 import AppointmentForm from "../components/AppointmentForm";
+import ReviewsSlider from "../components/ReviewsSlider";
 import { Star, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function Index() {
@@ -174,30 +175,36 @@ export default function Index() {
                   ></iframe>
                 </div>
               </div>
+              <ReviewsSlider
+                reviews={[
+                  { name: "Silas Oliveira", text: `Um excelente profissional que não quer apenas que o cliente fique pagando e voltando com ele. O Tiago te ensina e te mostra como não precisar tanto do trabalho dele, por se preocupar com o cliente, que se cuide e fique bem. Recomendarei a todos que me perguntarem sobre.` },
+                  { name: "Eduardo Wolk", text: `Excelente a sessão com o Tiago. Ele utiliza várias técnicas para ajudar nas dores e realinhar o corpo.
+Marquei minha sessão com ele depois de ler as outras avaliações e foi uma ótima escolha.` },
+                  { name: "Rodrigo Montenegro", text: `O Tiago é um rapaz extremamente profissional! Mas pra além disso, ele olha para seus pacientes com carinho e muito zelo! Já passei por algumas sessões de massoterapia com outros profissionais mas nem de longe alguém chegou a altura do trabalho que ele faz! A sessão é completa, tem momentos para avaliar, para aconselhar e incentivar, momentos para tratar e para relaxar! Fiz questão de vir aqui avaliar apenas no dia seguinte para poder contar tanto sobre o tratamento e o pós, então afirmo: recomendo muito os serviços do Tiago! Dormi muito bem e estou muito feliz por cuidar do meu corpo com um profissional tão bacana! Obrigado mesmo e muito sucesso com seus clientes!` },
+                  { name: "Luis Andreozzi", text: `Muito bom, excelente profissional, Superou minhas expectativas.10/10` },
+                  { name: "Isadora Toledo", text: `O Tiago é sem sombra de dúvida o melhor profissional com quem já realizei tratamento. Já passei por diversos profissionais da saúde (médicos, fisios etc.) mas o trabalho do Tiago foi, de longe, o mais bem executado e com melhores resultados. Faço treinos de alta intensidade e costumo sofrer lesões musculares e articulares (nódulos, contraturas) e o tratamento do Tiago alinha técnicas múltiplas com tamanha qualidade que sempre saio muito melhor de cada sessão (ele é um grande conhecedor de anatomia e desvenda muito rápido a origem de dores e lesões). E por fim, é muito educado, ético e cuidadoso. Recomendo de olhos fechados.` },
+                  { name: "Rafael Luca", text: `O Tiago é excelente massoterapeuta. Faz uma massagem global que engloba também quiropraxia e alongamento. Eu pratico jiu jitsu e musculação há muitos anos continuamente, e já passei por vários massoterapeutas, mas nunca tinha achado alguém que resolvesse bem as minhas dores. O Tiago é realmente diferenciado, recomendo bastante.` },
+                  { name: "Jose Freire", text: `O Tiago… atende cada cliente de uma maneira personalizada!  Superando as expectativas! Criou um protocolo unico q comecou antes do dia do atendimento principal. Desenhou algo que eu nao podia imaginar! Fez a preparacao do meu corpo e fez a melhor massagem modeladora associando tecnicas de alongamento e relaxamento. Impressionante o resultado e sua duracao. So tenho que agradecer ao profissonal. PARABENS.` },
+                  { name: "Jonas Lopes", text: `O Tiago sabe muito bem o que faz. E sabe fazer bem feito. Ele parece ter amor por cada feixe muscular que toca, e só vai pro próximo quando garante que este já está relaxado o suficiente. Ele não tem pressa em seus movimentos, mas não é manso - faz a pressão exata. Aí os feixes musculares parecem retribuir o amor e ficam nas nuvens.
+
+Foi uma sessão maravilhosa, cheia de conhecimento, técnica, profissionalismo e cuidado para comigo.
+
+Obrigado de verdade, e eu volto em breve.` },
+                  { name: "Santiago Ferreyra", text: `Tiago é um ótimo profissional. Respeitoso e educado. Massagens ideais para atletas e para quem procura relaxar, melhorar a capacidade física ou prevenir lesões. altamente recomendado` },
+                  { name: "Márcio Refacho", text: `Procurei por um massoterapeuta próximo a minha localização e encontrei o Tiago. Fiz uma sessão e sai muito satisfeito. O Tiago encontrou vários pontos em mim a serem trabalhados e buscou por realinhar a minha coluna de forma específica às minhas queixas. Ele fez uma leitura da minha coluna. Deu aula!! Além de tudo, super educado e comunicativo.` },
+                  { name: "Raquel ZB", text: `O Tiago é um massoterapeuta super profissional e talentoso. Antes e durante a massagem ele explica todas as técnicas, a melhora que ela vai trazer  e o motivo daquela região estar ruim, fazendo com que você entenda e passe a ter um olhar diferente do seu corpo . Além disso na minha sessão, por meio das técnicas que ele ia usando e me explicando, descobri lugares que tenho que dar muita atenção a minha saúde, esses que eu não tinha o menor conhecimento que estavam me afetando tanto . Durante e depois da sessão o alívio das minhas costas e quadris foi instantâneo! Enfim, foi tudo perfeito e excelente, vale a pena cada segundo !` },
+                  { name: "Herbert Souza", text: `O Tiago é um excelente profissional. Faço com bastante frequência massagem por conta do esporte e posso garantir que a qualidade é muito superior com ele. Obrigado pelo ótimo trabalho.` },
+                  { name: "Bruno Carvalho", text: `Conheci o trabalho do Tiago há cerca de 6 meses e, desde então, não tive mais crise de lombalgia. Um massoterapeuta incrível, com toque preciso e com conhecimento em diversas técnicas que, certamente, colocam a gente no eixo. Obrigado 🫂 e até breve! …` },
+                  { name: "Patricia Z", text: `O Tiago é um massoterapeuta incrível, super atencioso,  cuidadoso, explica cada movimento.
+Indico a todos  que façam a massoterapia com esse profissional incrível, é extremamente relaxante  e a sensação é de estar mil vezes mais leve , a gente perde até a noção do tempo. Muito grata ! 🙏` },
+                ]}
+              />
             </div>
             <AppointmentForm />
           </div>
         </div>
       </section>
 
-      {/* Client Testimonials */}
-      <section className="py-16 bg-gray-800 text-white">
-        <div className="container mx-auto px-6">
-          <h2 className="text-3xl font-bold text-center mb-12 font-title">Veja o que nossos clientes dizem:</h2>
-          <div className="bg-white text-black p-8 rounded-lg max-w-2xl mx-auto">
-            <div className="flex items-center space-x-2 mb-4">
-              {[1,2,3,4,5].map((star) => (
-                <Star key={star} className="w-5 h-5 fill-brand text-brand" />
-              ))}
-            </div>
-            <p className="text-lg mb-4">
-              "Excelente atendimento e tratamento profissional. O quiroprático foi muito conhecedor 
-              e me ajudou a me recuperar da lesão nas costas muito mais rápido do que esperava."
-            </p>
-            <p className="font-medium">- Maria S.</p>
-          </div>
-        </div>
-      </section>
 
 
       {/* Footer */}
