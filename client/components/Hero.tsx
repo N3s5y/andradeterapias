@@ -11,11 +11,15 @@ const Hero = () => {
   const v1Ref = useRef<HTMLVideoElement>(null);
 
   useEffect(() => {
-    const play = (el: HTMLVideoElement | null) => {
-      try { el?.play(); } catch {}
+    const prepare = (el: HTMLVideoElement | null) => {
+      if (!el) return;
+      el.muted = true;
+      el.defaultMuted = true as any;
+      el.volume = 0;
+      try { el.play().catch(() => {}); } catch {}
     };
-    play(v0Ref.current);
-    play(v1Ref.current);
+    prepare(v0Ref.current);
+    prepare(v1Ref.current);
     const id = setInterval(() => setActive((a) => (a === 0 ? 1 : 0)), 8000);
     return () => clearInterval(id);
   }, []);
@@ -29,18 +33,24 @@ const Hero = () => {
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${active === 0 ? "opacity-100" : "opacity-0"}`}
           src={videos[0]}
           muted
+          defaultMuted
           autoPlay
           loop
           playsInline
+          onLoadedMetadata={(e) => { e.currentTarget.muted = true; e.currentTarget.volume = 0; }}
+          aria-hidden="true"
         />
         <video
           ref={v1Ref}
           className={`absolute inset-0 w-full h-full object-cover transition-opacity duration-700 ${active === 1 ? "opacity-100" : "opacity-0"}`}
           src={videos[1]}
           muted
+          defaultMuted
           autoPlay
           loop
           playsInline
+          onLoadedMetadata={(e) => { e.currentTarget.muted = true; e.currentTarget.volume = 0; }}
+          aria-hidden="true"
         />
         {/* Dark Overlay */}
         <div className="absolute inset-0 bg-black/60"></div>
