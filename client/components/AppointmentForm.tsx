@@ -102,7 +102,7 @@ Lugar livre de preconceitos`;
   };
 
   return (
-    <div className="bg-white p-8 rounded-lg shadow-lg">
+    <div className="bg-white p-8 rounded-lg shadow-lg w-full">
       <div className="text-center mb-8">
         <h3 className="text-xl font-bold mb-4 font-subtitle">Seja bem-vindo(a) 👋🏻</h3>
         <p className="text-gray-600 font-body">
