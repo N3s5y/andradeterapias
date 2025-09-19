@@ -15,7 +15,7 @@ const Header = () => {
           <img
             src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F955135ddf82349ea8c51c0d428a04412?format=webp&width=800"
             alt="Andrade Terapias - Brand Name"
-            className="h-12 w-auto"
+            className="h-12 w-auto hidden sm:block"
           />
         </Link>
       </div>

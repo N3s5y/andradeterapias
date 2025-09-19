@@ -35,7 +35,7 @@ const ReviewsSlider = ({ reviews, intervalMs = 6000 }: ReviewsSliderProps) => {
           style={{ transform: `translateX(-${index * 100}%)` }}
         >
           {safeReviews.map((r, i) => (
-            <div key={i} className="min-w-full px-1">
+            <div key={i} className="min-w-full">
               <div className="bg-white text-black p-6 rounded-lg shadow-lg h-full">
                 <div className="flex items-center space-x-1 mb-3">
                   {[0, 1, 2, 3, 4].map((s) => (

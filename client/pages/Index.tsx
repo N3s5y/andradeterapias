@@ -6,7 +6,7 @@ import { Star, Phone, Mail, MapPin, Clock } from "lucide-react";
 
 export default function Index() {
   return (
-    <div className="min-h-screen">
+    <div className="min-h-screen overflow-x-hidden">
       <Header />
       <Hero />
       

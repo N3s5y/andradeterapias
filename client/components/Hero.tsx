@@ -22,7 +22,7 @@ const Hero = () => {
         </p>
 
         {/* Main Heading */}
-        <h1 className="text-white text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-wider mb-16 max-w-6xl leading-tight font-title">
+        <h1 className="text-white text-3xl sm:text-4xl md:text-6xl lg:text-7xl xl:text-8xl font-bold tracking-wider break-words mb-16 max-w-[90vw] md:max-w-6xl leading-tight font-title">
           ORIENTAÇÃO ESPECIALIZADA &<br />
           TRATAMENTO EFICAZ
         </h1>
@@ -41,7 +41,7 @@ const Hero = () => {
       </div>
 
       {/* Contact Text - Vertical on Right */}
-      <div className="absolute right-0 top-1/2 transform -translate-y-1/2 rotate-90 origin-center">
+      <div className="hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2 rotate-90 origin-center">
         <span className="text-brand text-lg font-bold tracking-[0.3em]">
           CONTATO
         </span>
