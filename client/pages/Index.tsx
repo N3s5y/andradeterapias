@@ -164,6 +164,15 @@ export default function Index() {
                   ))}
                 </div>
                 <p className="text-sm text-gray-600">Avaliações no Google</p>
+                <div className="mt-6 relative w-full h-64 md:h-80 lg:h-96 overflow-hidden rounded-lg shadow-lg">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3656.943952473379!2d-46.653228723725!3d-23.570456361928194!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94cef798f4a03273%3A0xae4a14cd897b1d8b!2sTiago%20Andrade%20-%20terapia%20corporal%2C%20massoterapia%2C%20quiropraxia%2C%20massagem!5e0!3m2!1spt-BR!2sbr!4v1758319426835!5m2!1spt-BR!2sbr"
+                    allowFullScreen=""
+                    loading="lazy"
+                    referrerPolicy="no-referrer-when-downgrade"
+                    className="absolute inset-0 w-full h-full border-0"
+                  ></iframe>
+                </div>
               </div>
             </div>
             <AppointmentForm />
@@ -190,18 +199,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Map Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-6">
-          <div className="bg-gray-200 h-64 rounded-lg flex items-center justify-center relative">
-            <div className="text-center">
-              <MapPin className="w-12 h-12 text-brand mx-auto mb-2" />
-              <p className="text-lg font-medium">Andrade Terapias</p>
-              <p className="text-gray-600">São Paulo, SP</p>
-            </div>
-          </div>
-        </div>
-      </section>
 
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-16">
