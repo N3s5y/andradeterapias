@@ -108,7 +108,7 @@ export default function Index() {
       </section>
 
       {/* Booking Section */}
-      <section className="py-16 bg-gray-100">
+      <section className="py-16 bg-gray-100 overflow-x-hidden">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12">
             <div>
