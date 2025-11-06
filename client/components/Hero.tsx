@@ -82,12 +82,6 @@ const Hero = () => {
         </button>
       </div>
 
-      {/* Contact Text - Vertical on Right */}
-      <div className="hidden md:block absolute right-0 top-1/2 transform -translate-y-1/2 rotate-90 origin-center">
-        <span className="text-brand text-lg font-bold tracking-[0.3em]">
-          CONTATO
-        </span>
-      </div>
     </section>
   );
 };
