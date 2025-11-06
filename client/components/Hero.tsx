@@ -84,7 +84,10 @@ const Hero = () => {
         </div>
 
         {/* CTA Button */}
-        <button className="bg-brand text-black px-8 py-4 text-lg font-bold tracking-wider hover:bg-brand-dark transition-colors duration-200">
+        <button
+          onClick={scrollToForm}
+          className="bg-brand text-black px-8 py-4 text-lg font-bold tracking-wider hover:bg-brand-dark transition-colors duration-200"
+        >
           AGENDAR CONSULTA
         </button>
       </div>
