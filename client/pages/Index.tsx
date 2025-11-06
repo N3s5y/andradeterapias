@@ -2,7 +2,7 @@ import Header from "../components/Header";
 import Hero from "../components/Hero";
 import AppointmentForm from "../components/AppointmentForm";
 import ReviewsSlider from "../components/ReviewsSlider";
-import { Star, Phone, Mail, MapPin, Clock } from "lucide-react";
+import { Star, Phone, Mail, MapPin, Clock, Instagram, MessageCircle } from "lucide-react";
 
 export default function Index() {
   return (
