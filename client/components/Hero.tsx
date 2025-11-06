@@ -10,6 +10,13 @@ const Hero = () => {
   const v0Ref = useRef<HTMLVideoElement>(null);
   const v1Ref = useRef<HTMLVideoElement>(null);
 
+  const scrollToForm = () => {
+    const formSection = document.getElementById("appointment-form");
+    if (formSection) {
+      formSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   useEffect(() => {
     const prepare = (el: HTMLVideoElement | null) => {
       if (!el) return;
