@@ -64,7 +64,7 @@ export default function Index() {
                 <li>• Liberação miofascial</li>
                 <li>• Terapias desportivas</li>
                 <li>• Ajustes quiropráticos</li>
-                <li>• Manipulaç��es inspiradas na osteopatia</li>
+                <li>• Manipulações inspiradas na osteopatia</li>
                 <li>• Alongamentos</li>
                 <li>• Relaxamento profundo</li>
               </ul>
@@ -108,7 +108,7 @@ export default function Index() {
       </section>
 
       {/* Booking Section */}
-      <section className="py-16 bg-gray-100 overflow-x-hidden">
+      <section id="appointment-form" className="py-16 bg-gray-100 overflow-x-hidden">
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-full">
             <div>
