@@ -64,7 +64,7 @@ export default function Index() {
                 <li>• Liberação miofascial</li>
                 <li>• Terapias desportivas</li>
                 <li>• Ajustes quiropráticos</li>
-                <li>• Manipulações inspiradas na osteopatia</li>
+                <li>• Manipulaç��es inspiradas na osteopatia</li>
                 <li>• Alongamentos</li>
                 <li>• Relaxamento profundo</li>
               </ul>
@@ -179,66 +179,39 @@ Indico a todos  que façam a massoterapia com esse profissional incrível, é ex
       {/* Footer */}
       <footer className="bg-gray-800 text-white py-16">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-4 gap-8">
-            <div>
-              <div className="flex items-center space-x-3 mb-6">
-                <div className="w-12 h-12 bg-brand rounded-full flex items-center justify-center">
-                  <span className="text-lg font-bold text-black">AT</span>
-                </div>
-                <div>
-                  <div className="font-bold">ANDRADE</div>
-                  <div className="font-bold">TERAPIAS</div>
-                </div>
+          <div className="flex flex-col items-center space-y-8">
+            <div className="flex items-center space-x-3">
+              <div className="w-12 h-12 bg-brand rounded-full flex items-center justify-center">
+                <span className="text-lg font-bold text-black">AT</span>
               </div>
-              <p className="text-gray-400 text-sm">
-                Especialistas em massagem terapêutica com quiropraxia.
-              </p>
-            </div>
-            <div>
-              <h4 className="font-bold mb-4 font-subtitle">Horário de Funcionamento</h4>
-              <div className="space-y-2 text-sm text-gray-400">
-                <div className="flex justify-between">
-                  <span>Segunda - Sexta</span>
-                  <span>8:00 - 18:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Sábado</span>
-                  <span>9:00 - 15:00</span>
-                </div>
-                <div className="flex justify-between">
-                  <span>Domingo</span>
-                  <span>Fechado</span>
-                </div>
+              <div>
+                <div className="font-bold">ANDRADE</div>
+                <div className="font-bold">TERAPIAS</div>
               </div>
             </div>
-            <div>
-              <h4 className="font-bold mb-4 font-subtitle">Links Rápidos</h4>
-              <div className="space-y-2 text-sm text-gray-400">
-                <div>Sobre Nós</div>
-                <div>Serviços</div>
-                <div>Nossa Equipe</div>
-                <div>Agendamentos</div>
-                <div>Contato</div>
-              </div>
-            </div>
-            <div>
-              <h4 className="font-bold mb-4 font-subtitle">Informações de Contato</h4>
-              <div className="space-y-3 text-sm text-gray-400">
-                <div className="flex items-center space-x-2">
-                  <Phone className="w-4 h-4" />
-                  <span>(11) 99999-9999</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <Mail className="w-4 h-4" />
-                  <span>massagemdeverdade@gmail.com</span>
-                </div>
-                <div className="flex items-center space-x-2">
-                  <MapPin className="w-4 h-4" />
-                  <span>São Paulo, SP</span>
-                </div>
-              </div>
+
+            <div className="flex items-center space-x-8">
+              <a
+                href="https://www.instagram.com/masso.e.quiro/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-brand transition-colors"
+                aria-label="Instagram"
+              >
+                <Instagram className="w-8 h-8" />
+              </a>
+              <a
+                href="https://wa.me/5511993215744"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="text-white hover:text-brand transition-colors"
+                aria-label="WhatsApp"
+              >
+                <MessageCircle className="w-8 h-8" />
+              </a>
             </div>
           </div>
+
           <div className="border-t border-gray-700 mt-12 pt-8 text-center text-sm text-gray-400">
             <p>&copy; 2024 Andrade Terapias. Todos os direitos reservados.</p>
           </div>
