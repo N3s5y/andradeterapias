@@ -23,7 +23,9 @@ const Hero = () => {
       el.muted = true;
       el.defaultMuted = true as any;
       el.volume = 0;
-      try { el.play().catch(() => {}); } catch {}
+      try {
+        el.play().catch(() => {});
+      } catch {}
     };
     prepare(v0Ref.current);
     prepare(v1Ref.current);
@@ -44,7 +46,10 @@ const Hero = () => {
           autoPlay
           loop
           playsInline
-          onLoadedMetadata={(e) => { e.currentTarget.muted = true; e.currentTarget.volume = 0; }}
+          onLoadedMetadata={(e) => {
+            e.currentTarget.muted = true;
+            e.currentTarget.volume = 0;
+          }}
           aria-hidden="true"
         />
         <video
@@ -56,7 +61,10 @@ const Hero = () => {
           autoPlay
           loop
           playsInline
-          onLoadedMetadata={(e) => { e.currentTarget.muted = true; e.currentTarget.volume = 0; }}
+          onLoadedMetadata={(e) => {
+            e.currentTarget.muted = true;
+            e.currentTarget.volume = 0;
+          }}
           aria-hidden="true"
         />
         {/* Dark Overlay */}
@@ -91,7 +99,6 @@ const Hero = () => {
           AGENDAR CONSULTA
         </button>
       </div>
-
     </section>
   );
 };
