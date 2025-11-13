@@ -82,7 +82,7 @@ export default function Index() {
                 Técnicas integradas
               </h3>
               <ul className="space-y-2 text-gray-600 font-body">
-                <li>�� Shiatsu</li>
+                <li>• Shiatsu</li>
                 <li>• Drenagem linfática</li>
                 <li>• Liberação miofascial</li>
                 <li>• Terapias desportivas</li>
