@@ -239,7 +239,7 @@ Obrigado de verdade, e eu volto em breve.`,
                   },
                   {
                     name: "Márcio Refacho",
-                    text: `Procurei por um massoterapeuta próximo a minha localização e encontrei o Tiago. Fiz uma sessão e sai muito satisfeito. O Tiago encontrou vários pontos em mim a serem trabalhados e buscou por realinhar a minha coluna de forma específica às minhas queixas. Ele fez uma leitura da minha coluna. Deu aula!! Além de tudo, super educado e comunicativo.`,
+                    text: `Procurei por um massoterapeuta pr��ximo a minha localização e encontrei o Tiago. Fiz uma sessão e sai muito satisfeito. O Tiago encontrou vários pontos em mim a serem trabalhados e buscou por realinhar a minha coluna de forma específica às minhas queixas. Ele fez uma leitura da minha coluna. Deu aula!! Além de tudo, super educado e comunicativo.`,
                   },
                   {
                     name: "Raquel ZB",
@@ -261,7 +261,9 @@ Indico a todos  que façam a massoterapia com esse profissional incrível, é ex
                 ]}
               />
             </div>
-            <AppointmentForm />
+            <div id="patient-form">
+              <AppointmentForm />
+            </div>
           </div>
         </div>
       </section>
