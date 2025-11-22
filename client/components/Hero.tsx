@@ -11,10 +11,10 @@ const Hero = () => {
   const v1Ref = useRef<HTMLVideoElement>(null);
 
   const scrollToForm = () => {
-    const formSection = document.getElementById("appointment-form");
-    if (formSection) {
+    const patientForm = document.getElementById("patient-form");
+    if (patientForm) {
       const headerHeight = 100;
-      const formTop = formSection.getBoundingClientRect().top + window.scrollY - headerHeight;
+      const formTop = patientForm.getBoundingClientRect().top + window.scrollY - headerHeight;
       window.scrollTo({
         top: formTop,
         behavior: "smooth"
