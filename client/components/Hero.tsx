@@ -13,7 +13,12 @@ const Hero = () => {
   const scrollToForm = () => {
     const formSection = document.getElementById("appointment-form");
     if (formSection) {
-      formSection.scrollIntoView({ behavior: "smooth" });
+      const headerHeight = 100;
+      const formTop = formSection.getBoundingClientRect().top + window.scrollY - headerHeight;
+      window.scrollTo({
+        top: formTop,
+        behavior: "smooth"
+      });
     }
   };
 
