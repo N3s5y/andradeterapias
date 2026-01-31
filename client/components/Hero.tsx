@@ -80,7 +80,7 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 h-full flex flex-col items-center justify-center text-center px-6">
         {/* Subtitle */}
-        <p className="text-brand text-lg md:text-xl lg:text-2xl italic font-light mb-8 max-w-4xl font-subtitle">
+        <p className="text-brand text-lg md:text-xl lg:text-2xl italic font-light mb-2 max-w-4xl font-subtitle">
           Especialista em massagem terapêutica com quiropraxia
         </p>
 
