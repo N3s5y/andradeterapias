@@ -24,7 +24,7 @@ export default function Index() {
           <div className="bg-brand h-1 w-12 mb-6"></div>
           <h2 className="text-3xl font-bold mb-8 font-title">Nossa abordagem</h2>
 
-          <div className="grid md:grid-cols-3 gap-8 mb-12">
+          <div className="grid md:grid-cols-3 gap-8 mb-6">
             <div className="md:col-span-2">
               <p className="text-gray-600 mb-4 font-body font-semibold">
                 Esqueça tudo o que você conhece sobre massagem.
