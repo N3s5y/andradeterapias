@@ -77,7 +77,10 @@ export default function Index() {
                   Diferencial
                 </h3>
                 <ul className="space-y-3 text-gray-600 font-body">
-                  <li>• Combinação estratégica de massoterapia e quiropraxia na mesma sessão</li>
+                  <li>
+                    • Combinação estratégica de massoterapia e quiropraxia na
+                    mesma sessão
+                  </li>
                 </ul>
               </div>
 
