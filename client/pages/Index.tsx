@@ -74,6 +74,15 @@ export default function Index() {
             <div className="flex flex-col gap-6">
               <div className="bg-brand/10 p-8 rounded-lg">
                 <h3 className="text-xl font-bold mb-4 font-subtitle">
+                  Diferencial
+                </h3>
+                <ul className="space-y-3 text-gray-600 font-body">
+                  <li>• Combinação estratégica de massoterapia e quiropraxia na mesma sessão</li>
+                </ul>
+              </div>
+
+              <div className="bg-brand/10 p-8 rounded-lg">
+                <h3 className="text-xl font-bold mb-4 font-subtitle">
                   Técnicas integradas
                 </h3>
                 <ul className="space-y-2 text-gray-600 font-body">
@@ -85,15 +94,6 @@ export default function Index() {
                   <li>• Manipulações inspiradas na osteopatia</li>
                   <li>• Alongamentos</li>
                   <li>• Relaxamento profundo</li>
-                </ul>
-              </div>
-
-              <div className="bg-brand/10 p-8 rounded-lg">
-                <h3 className="text-xl font-bold mb-4 font-subtitle">
-                  Diferencial
-                </h3>
-                <ul className="space-y-3 text-gray-600 font-body">
-                  <li>• Combinação estratégica de massoterapia e quiropraxia na mesma sessão</li>
                 </ul>
               </div>
             </div>
