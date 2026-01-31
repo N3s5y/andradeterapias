@@ -18,45 +18,7 @@ export default function Index() {
       <Header />
       <Hero />
 
-      {/* Team Member Section */}
-      <section className="py-16">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F5b56f8f5980f41ff93e4ace9d0c3a626?format=webp&width=800"
-                alt="Tiago Andrade - Terapeuta"
-                className="mx-auto w-full max-w-sm md:max-w-md object-contain rounded-lg"
-              />
-            </div>
-            <div>
-              <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6 font-title">Sobre mim</h2>
-              <p className="text-gray-600 mb-4 font-body">
-                Meu nome é Tiago Andrade, sou especialista em terapias
-                corporais. Mineiro de origem, cresci em Brasília e atuo
-                profissionalmente em São Paulo desde 2023.
-              </p>
-              <p className="text-gray-600 mb-4 font-body">
-                Além do meu trabalho, também sou atleta de ciclismo, com
-                passagem por diversos esportes ao longo da vida, como skate e
-                artes marciais. Essa vivência esportiva me trouxe experiência
-                prática para compreender melhor as dores, limitações e
-                necessidades de cada corpo.
-              </p>
-              <p className="text-gray-600 font-body">
-                O projeto Andrade Terapias nasceu para transformar a forma como
-                a massagem e as terapias corporais são vistas, elevando o
-                cuidado a um novo nível. Cada protocolo é único, construído de
-                acordo com as queixas, necessidades e objetivos de cada
-                paciente.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
-      {/* Private Treatment Section */}
+      {/* Our Approach Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="grid md:grid-cols-2 gap-12 items-center">
@@ -91,6 +53,44 @@ export default function Index() {
                 <li>• Alongamentos</li>
                 <li>• Relaxamento profundo</li>
               </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Member Section */}
+      <section className="py-16">
+        <div className="container mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-12 items-center">
+            <div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F5b56f8f5980f41ff93e4ace9d0c3a626?format=webp&width=800"
+                alt="Tiago Andrade - Terapeuta"
+                className="mx-auto w-full max-w-sm md:max-w-md object-contain rounded-lg"
+              />
+            </div>
+            <div>
+              <div className="bg-brand h-1 w-12 mb-6"></div>
+              <h2 className="text-3xl font-bold mb-6 font-title">Sobre mim</h2>
+              <p className="text-gray-600 mb-4 font-body">
+                Meu nome é Tiago Andrade, sou especialista em terapias
+                corporais. Mineiro de origem, cresci em Brasília e atuo
+                profissionalmente em São Paulo desde 2023.
+              </p>
+              <p className="text-gray-600 mb-4 font-body">
+                Além do meu trabalho, também sou atleta de ciclismo, com
+                passagem por diversos esportes ao longo da vida, como skate e
+                artes marciais. Essa vivência esportiva me trouxe experiência
+                prática para compreender melhor as dores, limitações e
+                necessidades de cada corpo.
+              </p>
+              <p className="text-gray-600 font-body">
+                O projeto Andrade Terapias nasceu para transformar a forma como
+                a massagem e as terapias corporais são vistas, elevando o
+                cuidado a um novo nível. Cada protocolo é único, construído de
+                acordo com as queixas, necessidades e objetivos de cada
+                paciente.
+              </p>
             </div>
           </div>
         </div>
