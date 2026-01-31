@@ -22,7 +22,9 @@ export default function Index() {
       <section className="py-8 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="bg-brand h-1 w-12 mb-6"></div>
-          <h2 className="text-3xl font-bold mb-4 font-title">Nossa abordagem</h2>
+          <h2 className="text-3xl font-bold mb-4 font-title">
+            Nossa abordagem
+          </h2>
 
           <div className="grid md:grid-cols-3 gap-6 mb-0">
             <div className="md:col-span-2">
@@ -34,11 +36,17 @@ export default function Index() {
               </p>
 
               <p className="text-gray-600 mb-4 font-body">
-                Na Andrade Terapias, cada sessão começa com uma anamnese completa, onde analisamos sua queixa principal, histórico, rotina, postura e padrões de dor.
+                Na Andrade Terapias, cada sessão começa com uma anamnese
+                completa, onde analisamos sua queixa principal, histórico,
+                rotina, postura e padrões de dor.
               </p>
 
               <p className="text-gray-600 mb-6 font-body">
-                A partir disso, criamos protocolos exclusivos, pensados exatamente para o seu caso. O objetivo não é apenas aliviar a dor momentaneamente. É identificar e tratar a raiz do problema — seja ela postural, muscular, articular ou neuromuscular — responsável por:
+                A partir disso, criamos protocolos exclusivos, pensados
+                exatamente para o seu caso. O objetivo não é apenas aliviar a
+                dor momentaneamente. É identificar e tratar a raiz do problema —
+                seja ela postural, muscular, articular ou neuromuscular —
+                responsável por:
               </p>
 
               <ul className="list-disc pl-5 space-y-2 text-gray-600 mb-6 font-body">
@@ -49,11 +57,17 @@ export default function Index() {
               </ul>
 
               <p className="text-gray-600 mb-4 font-body">
-                Cada sessão tem duração média de 2 horas, tempo necessário para investigar, tratar e aprofundar as técnicas que o seu caso exige. Nesse período, aplicamos em média 8 técnicas diferentes, combinadas de forma estratégica, atuando em cada região conforme a sua necessidade específica.
+                Cada sessão tem duração média de 2 horas, tempo necessário para
+                investigar, tratar e aprofundar as técnicas que o seu caso
+                exige. Nesse período, aplicamos em média 8 técnicas diferentes,
+                combinadas de forma estratégica, atuando em cada região conforme
+                a sua necessidade específica.
               </p>
 
               <p className="text-gray-600 font-body">
-                <strong>Nada de receita pronta.</strong> <strong>Nada de sessão genérica.</strong> Aqui, o tratamento se adapta a você — e não o contrário.
+                <strong>Nada de receita pronta.</strong>{" "}
+                <strong>Nada de sessão genérica.</strong> Aqui, o tratamento se
+                adapta a você — e não o contrário.
               </p>
             </div>
 
@@ -104,13 +118,20 @@ export default function Index() {
               <div className="bg-brand h-1 w-12 mb-6"></div>
               <h2 className="text-3xl font-bold mb-4 font-title">Sobre mim</h2>
               <p className="text-gray-600 mb-4 font-body">
-                Meu nome é Tiago Andrade, sou especialista em massoterapia e atleta de ciclismo. A vivência no esporte me permite compreender, na prática, as demandas do corpo no tratamento da dor e na recuperação física.
+                Meu nome é Tiago Andrade, sou especialista em massoterapia e
+                atleta de ciclismo. A vivência no esporte me permite
+                compreender, na prática, as demandas do corpo no tratamento da
+                dor e na recuperação física.
               </p>
               <p className="text-gray-600 mb-4 font-body">
-                Atuo no tratamento de dores musculoesqueléticas e no recovery de atletas, utilizando uma metodologia própria, onde diferentes técnicas são aplicadas de forma estratégica e sequencial, respeitando as respostas fisiológicas do corpo.
+                Atuo no tratamento de dores musculoesqueléticas e no recovery de
+                atletas, utilizando uma metodologia própria, onde diferentes
+                técnicas são aplicadas de forma estratégica e sequencial,
+                respeitando as respostas fisiológicas do corpo.
               </p>
               <p className="text-gray-600 font-body">
-                O resultado são tratamentos precisos, profundos e personalizados, adaptados à necessidade de cada paciente.
+                O resultado são tratamentos precisos, profundos e
+                personalizados, adaptados à necessidade de cada paciente.
               </p>
             </div>
           </div>
