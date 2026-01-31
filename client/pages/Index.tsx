@@ -57,20 +57,33 @@ export default function Index() {
               </p>
             </div>
 
-            <div className="bg-brand/10 p-8 rounded-lg h-fit">
-              <h3 className="text-xl font-bold mb-4 font-subtitle">
-                Técnicas integradas
-              </h3>
-              <ul className="space-y-2 text-gray-600 font-body">
-                <li>• Shiatsu</li>
-                <li>• Drenagem linfática</li>
-                <li>• Liberação miofascial</li>
-                <li>• Terapias desportivas</li>
-                <li>• Ajustes quiropráticos</li>
-                <li>• Manipulações inspiradas na osteopatia</li>
-                <li>• Alongamentos</li>
-                <li>• Relaxamento profundo</li>
-              </ul>
+            <div className="flex flex-col gap-6">
+              <div className="bg-brand/10 p-8 rounded-lg">
+                <h3 className="text-xl font-bold mb-4 font-subtitle">
+                  Técnicas integradas
+                </h3>
+                <ul className="space-y-2 text-gray-600 font-body">
+                  <li>• Shiatsu</li>
+                  <li>• Drenagem linfática</li>
+                  <li>• Liberação miofascial</li>
+                  <li>• Terapias desportivas</li>
+                  <li>• Ajustes quiropráticos</li>
+                  <li>• Manipulações inspiradas na osteopatia</li>
+                  <li>• Alongamentos</li>
+                  <li>• Relaxamento profundo</li>
+                </ul>
+              </div>
+
+              <div className="bg-brand/10 p-8 rounded-lg">
+                <h3 className="text-xl font-bold mb-4 font-subtitle">
+                  Diferencial
+                </h3>
+                <ul className="space-y-3 text-gray-600 font-body">
+                  <li>• Atendimento personalizado</li>
+                  <li>• Sessões no consultório ou a domicílio</li>
+                  <li>• Foco em resultado real e duradouro</li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
