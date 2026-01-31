@@ -21,25 +21,58 @@ export default function Index() {
       {/* Our Approach Section */}
       <section className="py-16 bg-gray-50">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div>
-              <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6 font-title">
-                Nossa abordagem
-              </h2>
-              <p className="text-gray-600 mb-4 font-body">
-                Aqui, não medimos o tempo de sessão como parâmetro, e sim o
-                resultado. Por isso, uma sessão pode variar entre 1h40 a 3h de
-                duração, sempre por um valor único, com foco em:
+          <div className="bg-brand h-1 w-12 mb-6"></div>
+          <h2 className="text-3xl font-bold mb-8 font-title">Nossa abordagem</h2>
+
+          <div className="grid md:grid-cols-3 gap-8 mb-12">
+            <div className="md:col-span-2">
+              <p className="text-gray-600 mb-4 font-body font-semibold">
+                Esqueça tudo o que você conhece sobre massagem.
               </p>
+              <p className="text-gray-600 mb-4 font-body font-semibold mb-6">
+                Aqui não existe protocolo pronto.
+              </p>
+
+              <p className="text-gray-600 mb-4 font-body">
+                Na Andrade Terapias, cada sessão começa com uma anamnese completa, onde analisamos sua queixa principal, histórico, rotina, postura e padrões de dor.
+              </p>
+
+              <p className="text-gray-600 mb-6 font-body">
+                A partir disso, criamos protocolos exclusivos, pensados exatamente para o seu caso. O objetivo não é apenas aliviar a dor momentaneamente. É identificar e tratar a raiz do problema — seja ela postural, muscular, articular ou neuromuscular — responsável por:
+              </p>
+
               <ul className="list-disc pl-5 space-y-2 text-gray-600 mb-6 font-body">
-                <li>alívio de dores e tensões musculares,</li>
-                <li>aumento da mobilidade articular,</li>
-                <li>recuperação física,</li>
-                <li>redução do estresse mental.</li>
+                <li>Pontos gatilho</li>
+                <li>Nódulos musculares</li>
+                <li>Sobrecargas</li>
+                <li>Dores recorrentes</li>
               </ul>
+
+              <p className="text-gray-600 mb-4 font-body">
+                Cada sessão tem duração média de 2 horas, tempo necessário para investigar, tratar e aprofundar as técnicas que o seu caso exige. Nesse período, aplicamos em média 8 técnicas diferentes, combinadas de forma estratégica, atuando em cada região conforme a sua necessidade específica.
+              </p>
+
+              <p className="text-gray-600 mb-8 font-body">
+                <strong>Nada de receita pronta.</strong> <strong>Nada de sessão genérica.</strong> Aqui, o tratamento se adapta a você — e não o contrário.
+              </p>
+
+              <div className="space-y-4">
+                <div className="flex items-start space-x-3">
+                  <span className="text-2xl">📍</span>
+                  <p className="text-gray-700 font-body"><strong>Atendimento personalizado</strong></p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-2xl">🏠</span>
+                  <p className="text-gray-700 font-body"><strong>Sessões no consultório ou a domicílio</strong></p>
+                </div>
+                <div className="flex items-start space-x-3">
+                  <span className="text-2xl">🎯</span>
+                  <p className="text-gray-700 font-body"><strong>Foco em resultado real e duradouro</strong></p>
+                </div>
+              </div>
             </div>
-            <div className="bg-brand/10 p-8 rounded-lg">
+
+            <div className="bg-brand/10 p-8 rounded-lg h-fit">
               <h3 className="text-xl font-bold mb-4 font-subtitle">
                 Técnicas integradas
               </h3>
