@@ -104,41 +104,6 @@ export default function Index() {
         </div>
       </section>
 
-      {/* Team Member Section */}
-      <section className="py-8">
-        <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-8 items-center">
-            <div>
-              <img
-                src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F5b56f8f5980f41ff93e4ace9d0c3a626?format=webp&width=800"
-                alt="Tiago Andrade - Terapeuta"
-                className="mx-auto w-full max-w-sm md:max-w-md object-contain rounded-lg"
-              />
-            </div>
-            <div>
-              <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-4 font-title">Sobre mim</h2>
-              <p className="text-gray-600 mb-4 font-body">
-                Meu nome é Tiago Andrade, sou especialista em massoterapia e
-                atleta de ciclismo. A vivência no esporte me permite
-                compreender, na prática, as demandas do corpo no tratamento da
-                dor e na recuperação física.
-              </p>
-              <p className="text-gray-600 mb-4 font-body">
-                Atuo no tratamento de dores musculoesqueléticas e no recovery de
-                atletas, utilizando uma metodologia própria, onde diferentes
-                técnicas são aplicadas de forma estratégica e sequencial,
-                respeitando as respostas fisiológicas do corpo.
-              </p>
-              <p className="text-gray-600 font-body">
-                O resultado são tratamentos precisos, profundos e
-                personalizados, adaptados à necessidade de cada paciente.
-              </p>
-            </div>
-          </div>
-        </div>
-      </section>
-
       {/* Clinic Facility Section */}
       <section className="py-8">
         <div className="container mx-auto px-6">
@@ -185,6 +150,41 @@ export default function Index() {
                 oferecer um atendimento de excelência. Venha conhecer a
                 revolução das terapias corporais e viver a experiência de
                 protocolos classe A.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      {/* Team Member Section */}
+      <section className="py-8">
+        <div className="container mx-auto px-6">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
+            <div>
+              <img
+                src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F5b56f8f5980f41ff93e4ace9d0c3a626?format=webp&width=800"
+                alt="Tiago Andrade - Terapeuta"
+                className="mx-auto w-full max-w-sm md:max-w-md object-contain rounded-lg"
+              />
+            </div>
+            <div>
+              <div className="bg-brand h-1 w-12 mb-6"></div>
+              <h2 className="text-3xl font-bold mb-4 font-title">Sobre mim</h2>
+              <p className="text-gray-600 mb-4 font-body">
+                Meu nome é Tiago Andrade, sou especialista em massoterapia e
+                atleta de ciclismo. A vivência no esporte me permite
+                compreender, na prática, as demandas do corpo no tratamento da
+                dor e na recuperação física.
+              </p>
+              <p className="text-gray-600 mb-4 font-body">
+                Atuo no tratamento de dores musculoesqueléticas e no recovery de
+                atletas, utilizando uma metodologia própria, onde diferentes
+                técnicas são aplicadas de forma estratégica e sequencial,
+                respeitando as respostas fisiológicas do corpo.
+              </p>
+              <p className="text-gray-600 font-body">
+                O resultado são tratamentos precisos, profundos e
+                personalizados, adaptados à necessidade de cada paciente.
               </p>
             </div>
           </div>
