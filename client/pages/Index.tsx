@@ -52,24 +52,9 @@ export default function Index() {
                 Cada sessão tem duração média de 2 horas, tempo necessário para investigar, tratar e aprofundar as técnicas que o seu caso exige. Nesse período, aplicamos em média 8 técnicas diferentes, combinadas de forma estratégica, atuando em cada região conforme a sua necessidade específica.
               </p>
 
-              <p className="text-gray-600 mb-8 font-body">
+              <p className="text-gray-600 font-body">
                 <strong>Nada de receita pronta.</strong> <strong>Nada de sessão genérica.</strong> Aqui, o tratamento se adapta a você — e não o contrário.
               </p>
-
-              <div className="space-y-4">
-                <div className="flex items-start space-x-3">
-                  <span className="text-2xl">📍</span>
-                  <p className="text-gray-700 font-body"><strong>Atendimento personalizado</strong></p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <span className="text-2xl">🏠</span>
-                  <p className="text-gray-700 font-body"><strong>Sessões no consultório ou a domicílio</strong></p>
-                </div>
-                <div className="flex items-start space-x-3">
-                  <span className="text-2xl">🎯</span>
-                  <p className="text-gray-700 font-body"><strong>Foco em resultado real e duradouro</strong></p>
-                </div>
-              </div>
             </div>
 
             <div className="bg-brand/10 p-8 rounded-lg h-fit">
