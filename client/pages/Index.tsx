@@ -104,23 +104,13 @@ export default function Index() {
               <div className="bg-brand h-1 w-12 mb-6"></div>
               <h2 className="text-3xl font-bold mb-6 font-title">Sobre mim</h2>
               <p className="text-gray-600 mb-4 font-body">
-                Meu nome é Tiago Andrade, sou especialista em terapias
-                corporais. Mineiro de origem, cresci em Brasília e atuo
-                profissionalmente em São Paulo desde 2023.
+                Meu nome é Tiago Andrade, sou especialista em massoterapia e atleta de ciclismo. A vivência no esporte me permite compreender, na prática, as demandas do corpo no tratamento da dor e na recuperação física.
               </p>
               <p className="text-gray-600 mb-4 font-body">
-                Além do meu trabalho, também sou atleta de ciclismo, com
-                passagem por diversos esportes ao longo da vida, como skate e
-                artes marciais. Essa vivência esportiva me trouxe experiência
-                prática para compreender melhor as dores, limitações e
-                necessidades de cada corpo.
+                Atuo no tratamento de dores musculoesqueléticas e no recovery de atletas, utilizando uma metodologia própria, onde diferentes técnicas são aplicadas de forma estratégica e sequencial, respeitando as respostas fisiológicas do corpo.
               </p>
               <p className="text-gray-600 font-body">
-                O projeto Andrade Terapias nasceu para transformar a forma como
-                a massagem e as terapias corporais são vistas, elevando o
-                cuidado a um novo nível. Cada protocolo é único, construído de
-                acordo com as queixas, necessidades e objetivos de cada
-                paciente.
+                O resultado são tratamentos precisos, profundos e personalizados, adaptados à necessidade de cada paciente.
               </p>
             </div>
           </div>
