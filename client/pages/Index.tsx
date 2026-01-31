@@ -90,9 +90,9 @@ export default function Index() {
       </section>
 
       {/* Team Member Section */}
-      <section className="py-6">
+      <section className="py-8">
         <div className="container mx-auto px-6">
-          <div className="grid md:grid-cols-2 gap-12 items-center">
+          <div className="grid md:grid-cols-2 gap-8 items-center">
             <div>
               <img
                 src="https://cdn.builder.io/api/v1/image/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F5b56f8f5980f41ff93e4ace9d0c3a626?format=webp&width=800"
@@ -102,7 +102,7 @@ export default function Index() {
             </div>
             <div>
               <div className="bg-brand h-1 w-12 mb-6"></div>
-              <h2 className="text-3xl font-bold mb-6 font-title">Sobre mim</h2>
+              <h2 className="text-3xl font-bold mb-4 font-title">Sobre mim</h2>
               <p className="text-gray-600 mb-4 font-body">
                 Meu nome é Tiago Andrade, sou especialista em massoterapia e atleta de ciclismo. A vivência no esporte me permite compreender, na prática, as demandas do corpo no tratamento da dor e na recuperação física.
               </p>
