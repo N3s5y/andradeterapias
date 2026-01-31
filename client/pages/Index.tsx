@@ -290,7 +290,7 @@ Indico a todos  que façam a massoterapia com esse profissional incrível, é ex
       </section>
 
       {/* Footer */}
-      <footer className="bg-gray-800 text-white py-16">
+      <footer className="bg-gray-800 text-white py-8">
         <div className="container mx-auto px-6">
           <div className="flex flex-col items-center space-y-8">
             <div className="flex items-center space-x-3">
