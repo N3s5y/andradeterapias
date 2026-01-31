@@ -19,7 +19,7 @@ export default function Index() {
       <Hero />
 
       {/* Our Approach Section */}
-      <section className="py-10 bg-gray-50">
+      <section className="py-6 bg-gray-50">
         <div className="container mx-auto px-6">
           <div className="bg-brand h-1 w-12 mb-6"></div>
           <h2 className="text-3xl font-bold mb-8 font-title">Nossa abordagem</h2>
