@@ -93,8 +93,6 @@ export default function Index() {
                   Diferencial
                 </h3>
                 <ul className="space-y-3 text-gray-600 font-body">
-                  <li>• Atendimento personalizado</li>
-                  <li>• Sessões no consultório ou a domicílio</li>
                   <li>• Combinação estratégica de massoterapia e quiropraxia na mesma sessão</li>
                 </ul>
               </div>
