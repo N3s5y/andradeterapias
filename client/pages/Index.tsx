@@ -172,7 +172,7 @@ export default function Index() {
       {/* Booking Section */}
       <section
         id="appointment-form"
-        className="py-16 bg-gray-100 overflow-x-hidden"
+        className="py-8 bg-gray-100 overflow-x-hidden"
       >
         <div className="container mx-auto px-6">
           <div className="grid grid-cols-1 md:grid-cols-2 gap-8 md:gap-12 max-w-full">
