@@ -106,7 +106,7 @@ const Hero = () => {
             QUERO AGENDAR
           </button>
           <button
-            className="border-2 border-brand text-brand px-8 py-4 text-lg font-bold tracking-wider hover:bg-brand hover:text-black transition-colors duration-200"
+            className="bg-brand text-black px-8 py-4 text-lg font-bold tracking-wider hover:bg-brand-dark transition-colors duration-200"
           >
             QUERO APRENDER
           </button>
