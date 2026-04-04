@@ -98,17 +98,12 @@ const Hero = () => {
         </div>
 
         {/* CTA Buttons */}
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
-          <button
-            onClick={scrollToForm}
-            className="bg-brand text-black px-8 py-4 text-lg font-bold tracking-wider hover:bg-brand-dark transition-colors duration-200"
-          >
-            QUERO AGENDAR
-          </button>
-          <button className="bg-brand text-black px-8 py-4 text-lg font-bold tracking-wider hover:bg-brand-dark transition-colors duration-200">
-            QUERO APRENDER
-          </button>
-        </div>
+        <button
+          onClick={scrollToForm}
+          className="bg-brand text-black px-8 py-4 text-lg font-bold tracking-wider hover:bg-brand-dark transition-colors duration-200"
+        >
+          QUERO AGENDAR
+        </button>
       </div>
     </section>
   );
