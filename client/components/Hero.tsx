@@ -1,9 +1,7 @@
 import { ChevronDown } from "lucide-react";
 import { useEffect, useRef, useState } from "react";
-import { useNavigate } from "react-router-dom";
 
 const Hero = () => {
-  const navigate = useNavigate();
   const videos = [
     "https://cdn.builder.io/o/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F090f90fbba59489b873cf734240ead67?alt=media&token=34026076-0a58-4961-9848-7f84bdd9524c&apiKey=e7aabf8df4f14ee888b3b92af9b9197b",
     "https://cdn.builder.io/o/assets%2Fe7aabf8df4f14ee888b3b92af9b9197b%2F41156b2cee6e4bbfa18978a09034d12c?alt=media&token=54c021b4-0fb9-47a1-b278-6b001a7707f3&apiKey=e7aabf8df4f14ee888b3b92af9b9197b",
@@ -23,10 +21,6 @@ const Hero = () => {
         behavior: "smooth",
       });
     }
-  };
-
-  const navigateToCourse = () => {
-    navigate("/course");
   };
 
   useEffect(() => {
@@ -111,10 +105,7 @@ const Hero = () => {
           >
             QUERO AGENDAR
           </button>
-          <button
-            onClick={navigateToCourse}
-            className="bg-brand text-black px-8 py-4 text-lg font-bold tracking-wider hover:bg-brand-dark transition-colors duration-200"
-          >
+          <button className="bg-brand text-black px-8 py-4 text-lg font-bold tracking-wider hover:bg-brand-dark transition-colors duration-200">
             QUERO APRENDER
           </button>
         </div>
